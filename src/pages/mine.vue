@@ -5,6 +5,10 @@
         <router-link to="/mine/one">one</router-link>
         <router-link to="/mine/two">two</router-link>
         <router-view></router-view>
+
+        <div class="top">
+            
+        </div>
     </div>
 </template>
 <script>

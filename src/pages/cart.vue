@@ -1,6 +1,9 @@
 <template>
     <div class="cart">
-        <h1>购物车方法第三方</h1>
+      <div class="head">
+      	<img src=
+        <p>购物车</p>
+      </div>  
     </div>
 </template>
 <script>
@@ -12,7 +15,15 @@
 </script>
 
 <style>
-    .cart h1 {
-        color:#0f0;
+    .head{
+    	height:.48rem;
+    	width:100%;
+    	background:#f2f2f2;
+    	font-size:.17rem;
+    	font-weight:400;
+    	text-align:center;
+    	line-height:.48rem;
+    	color:#666;
     }
+    
 </style>
