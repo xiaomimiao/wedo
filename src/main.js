@@ -11,7 +11,7 @@ import router from './router'
 // 安装
 Vue.use(VueResource)*/
 
-import './assets/reset.css'
+import '../static/reset.css'
 
 // 引入axios解决网络请求
 import axios from 'axios'

@@ -59,19 +59,19 @@ export default {
 
  }
   #app .tabbar a:nth-of-type(1) p{
-    background: url(assets/img/spr1_5b2e09c.png) no-repeat 0 -0.23rem;
+    background: url(../static/img/spr1_5b2e09c.png) no-repeat 0 -0.23rem;
     background-size:100%; 
   }
    #app .tabbar a:nth-of-type(2) p{
-    background: url(assets/img/spr1_5b2e09c.png) no-repeat 0 -0.69rem;
+    background: url(../static/img/spr1_5b2e09c.png) no-repeat 0 -0.69rem;
     background-size:100%; 
   }
    #app .tabbar a:nth-of-type(3) p{
-    background: url(assets/img/spr1_5b2e09c.png) no-repeat 0 -1.15rem;
+    background: url(../static/img/spr1_5b2e09c.png) no-repeat 0 -1.15rem;
     background-size:100%; 
   }
    #app .tabbar a:nth-of-type(4) p{
-    background: url(assets/img/spr1_5b2e09c.png) no-repeat 0 -1.61rem;
+    background: url(../static/img/spr1_5b2e09c.png) no-repeat 0 -1.61rem;
     background-size:100%; 
   }
 </style>
