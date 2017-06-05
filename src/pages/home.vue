@@ -12,7 +12,7 @@
 
 </script>
 
-<style>
+<style scope>
     .home h1 {
         color:#ff0;
     }
