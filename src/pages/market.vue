@@ -1,6 +1,6 @@
 <template>
     <div class="market">
-        <h1>超市</h1>
+        <h1>hong</h1>
     </div>
 </template>
 <script>
