@@ -3,6 +3,7 @@
         <h1>首页个人第三个</h1>
     </div>
 </template>
+
 <script>
     export default {
         name: "home",
