@@ -1,6 +1,6 @@
 <template>
     <div class="home">
-        <h1>王丹</h1>
+        <h1>feng</h1>
     </div>
 </template>
 <script>
