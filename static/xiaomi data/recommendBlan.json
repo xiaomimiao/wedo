@@ -1,0 +1,310 @@
+{
+    "code": 0,
+    "result": "ok",
+    "description": "success",
+    "data": {
+        "recom_list": [
+            {
+                "action": {
+                    "type": "product",
+                    "path": "5318",
+                    "log_code": "recom_cart_0-1#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=5318",
+                    "recommend_code": "recom_cart_0-1#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=5318"
+                },
+                "image_url": "//i8.mifile.cn/v1/a1/7efcf812-c343-3e09-e978-f9bdbc801522.webp",
+                "is_multi_price": false,
+                "market_price": "5999",
+                "name": "13.3\" 笔记本 尊享版",
+                "price": "5799",
+                "product_desc": "<font color=\"#ff4a00\">【6月5日 13.3\"小米笔记本 全系列 直降200元，享小米金融12期分期免息】</font>NVIDIA 940MX 独立显卡 / 轻薄全金属机身 / 8GB 内存 + 256GB SSD / 第六代 Intel 酷睿i7 处理器 / FHD 全贴合屏幕 / 高能量密度电池",
+                "product_tag": "//i8.mifile.cn/v1/a1/2116cab7-d871-5e04-defd-80383c5d8e5d.webp"
+            },
+            {
+                "action": {
+                    "type": "product",
+                    "path": "5771",
+                    "log_code": "recom_cart_0-2#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=5771",
+                    "recommend_code": "recom_cart_0-2#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=5771"
+                },
+                "image_url": "//i8.mifile.cn/v1/a1/233d8d26-0400-fc1b-af5f-ed1878079973.webp",
+                "is_multi_price": false,
+                "market_price": "4999",
+                "name": "12.5\" 笔记本 256GB",
+                "price": "4699",
+                "product_desc": "<font color=\"#ff4a00\">【6月5日 12.5\"小米笔记本 i5处理器  直降300元，享小米分期12期免息】</font>轻薄金属机身 / 超长续航，支持1C快充 / intel酷睿i5处理器 / 8GB内存+256GB SSD / FHD 全贴合屏幕",
+                "product_tag": "//i8.mifile.cn/v1/a1/0ecc85a4-728f-5719-0fd2-0f777ae625a0.webp"
+            },
+            {
+                "action": {
+                    "type": "product",
+                    "path": "5493",
+                    "log_code": "recom_cart_0-3#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=5493",
+                    "recommend_code": "recom_cart_0-3#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=5493"
+                },
+                "image_url": "//i8.mifile.cn/v1/a1/c843ebae-4a6d-c5a9-3964-10e7ca50e8d6.webp",
+                "is_multi_price": false,
+                "market_price": "3999",
+                "name": "12.5\" 笔记本 256GB",
+                "price": "3899",
+                "product_desc": "<font color=\"#ff4a00\">【享小米分期12期免息】</font>轻薄金属机身 / 超长续航，支持1C快充 / 新一代intel酷睿M3处理器 / 4GB内存+256GB SSD / FHD 全贴合屏幕 / 金银两色",
+                "product_tag": "//i8.mifile.cn/v1/a1/ed35b719-8c90-09a3-56a3-3b50cd876fb6.webp"
+            },
+            {
+                "action": {
+                    "type": "product",
+                    "path": "5499",
+                    "log_code": "recom_cart_0-4#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=5499",
+                    "recommend_code": "recom_cart_0-4#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=5499"
+                },
+                "image_url": "//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/dd4e70d66276839ed73d9a9b897d4859.jpg",
+                "is_multi_price": false,
+                "market_price": "299",
+                "name": "悦米机械键盘",
+                "price": "299",
+                "product_desc": "87键 / 铝合金机身 / TTC 红轴 / 简约百搭",
+                "product_tag": ""
+            },
+            {
+                "action": {
+                    "type": "product",
+                    "path": "4484",
+                    "log_code": "recom_cart_0-5#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=4484",
+                    "recommend_code": "recom_cart_0-5#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=4484"
+                },
+                "image_url": "//i8.mifile.cn/v1/a1/a10deea6-d8d5-2ef0-a5f1-dc5377ce8d80.webp",
+                "is_multi_price": false,
+                "market_price": "2299",
+                "name": "小米5s Plus 64GB版",
+                "price": "2299",
+                "product_desc": "<font color=\"#ff4a00\"> 【享小米分期12期免息\n】</font>5.7\" 大屏双摄像头 / 骁龙 821 旗舰处理器 / 轻薄金属机身 / 4GB内存+64GB容量",
+                "product_tag": ""
+            },
+            {
+                "action": {
+                    "type": "product",
+                    "path": "4479",
+                    "log_code": "recom_cart_0-6#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=4479",
+                    "recommend_code": "recom_cart_0-6#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=4479"
+                },
+                "image_url": "//i8.mifile.cn/v1/a1/4cb189d9-5c45-fc85-434e-51ead3520921.webp",
+                "is_multi_price": false,
+                "market_price": "59",
+                "name": "小米蓝牙耳机青春版",
+                "price": "59",
+                "product_desc": "6.5克轻巧 / 蓝牙4.1高清通话音质 / 支持切歌、音量调节",
+                "product_tag": ""
+            },
+            {
+                "action": {
+                    "type": "product",
+                    "path": "5059",
+                    "log_code": "recom_cart_0-7#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=5059",
+                    "recommend_code": "recom_cart_0-7#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=5059"
+                },
+                "image_url": "//i8.mifile.cn/v1/a1/21da5518-d5c3-5de7-84b8-afca9446ef93.webp",
+                "is_multi_price": false,
+                "market_price": "29",
+                "name": "小米活塞耳机  ",
+                "price": "29",
+                "product_desc": "铝合金音腔 / 第三代平衡阻尼系统 / 五色可选",
+                "product_tag": ""
+            },
+            {
+                "action": {
+                    "type": "product",
+                    "path": "5815",
+                    "log_code": "recom_cart_0-8#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=5815",
+                    "recommend_code": "recom_cart_0-8#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=5815"
+                },
+                "image_url": "//i8.mifile.cn/v1/a1/b17838bc-dc82-754b-83a7-4c229550c8ef.webp",
+                "is_multi_price": false,
+                "market_price": "349",
+                "name": "米家飞利浦智睿吸顶灯",
+                "price": "349",
+                "product_desc": "5cm超薄设计 / 色温可调 / 33W 大范围照明 / 独立夜灯光源 / 多重智能控制",
+                "product_tag": "//i8.mifile.cn/v1/a1/51a2cee2-8fdc-a17c-cbfb-d3c19c9996f6.webp"
+            },
+            {
+                "action": {
+                    "type": "product",
+                    "path": "5468",
+                    "log_code": "recom_cart_0-9#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=5468",
+                    "recommend_code": "recom_cart_0-9#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=5468"
+                },
+                "image_url": "//i8.mifile.cn/v1/a1/58ba30f1-ea54-73a9-5782-1ef2988a2827.webp",
+                "is_multi_price": false,
+                "market_price": "2999",
+                "name": "小蚁微单相机M1",
+                "price": "2999",
+                "product_desc": "<font color=\"#ff4a00\">【享小米分期12期免息】</font>2016万有效像素 / 4K 30fps视频录制 / 42.5mm f/1.8 / 12-40mm  f / 3.5-5.6 双镜头",
+                "product_tag": ""
+            },
+            {
+                "action": {
+                    "type": "product",
+                    "path": "4694",
+                    "log_code": "recom_cart_0-10#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=4694",
+                    "recommend_code": "recom_cart_0-10#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=4694"
+                },
+                "image_url": "//i8.mifile.cn/v1/a1/7737cbb7-e873-8cf9-1f85-9fabb6c35da5.webp",
+                "is_multi_price": false,
+                "market_price": "2799",
+                "name": "小米Note 2 64GB版",
+                "price": "2799",
+                "product_desc": "<font color=\"#ff4a00\">【享小米分期12期免息】</font>5.7\" 双曲面柔性屏 / 3D曲面玻璃 / 骁龙 821 性能版 / 2256万超高像素相机 / 4070mAh 超长续航",
+                "product_tag": ""
+            },
+            {
+                "action": {
+                    "type": "product",
+                    "path": "4786",
+                    "log_code": "recom_cart_0-11#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=4786",
+                    "recommend_code": "recom_cart_0-11#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=4786"
+                },
+                "image_url": "//i8.mifile.cn/v1/a1/7a20086a-90ef-31d2-79c3-d2223bafe6c0.webp",
+                "is_multi_price": false,
+                "market_price": "799",
+                "name": "AMAZFIT运动手表",
+                "price": "699",
+                "product_desc": "<font color='#ff4a00'>【6月5日直降100元下单再享立减10元，到手价689，享小米分期12期免息】</font>蓝牙听歌 / 索尼28纳米GPS / 陶瓷表圈 / 运动心率 / 智能通知提醒 / 支付宝快捷支付 / 5天续航",
+                "product_tag": "//i8.mifile.cn/v1/a1/5357312d-a48c-d820-c538-31f73eafa102.webp"
+            },
+            {
+                "action": {
+                    "type": "product",
+                    "path": "3828",
+                    "log_code": "recom_cart_0-12#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=3828",
+                    "recommend_code": "recom_cart_0-12#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=3828"
+                },
+                "image_url": "//i8.mifile.cn/v1/a1/23af3267-153c-6057-2293-579571a0b1a8.webp",
+                "is_multi_price": false,
+                "market_price": "599",
+                "name": "1MORE三单元圈铁耳机",
+                "price": "599",
+                "product_desc": "格莱美奖音乐大师定调 / 三单元共同驱动 / 专利结构金属复合振膜 / 高强度硅胶保护套 / 人性化线控设计",
+                "product_tag": ""
+            },
+            {
+                "action": {
+                    "type": "product",
+                    "path": "5729",
+                    "log_code": "recom_cart_0-13#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=5729",
+                    "recommend_code": "recom_cart_0-13#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=5729"
+                },
+                "image_url": "//i8.mifile.cn/v1/a1/265d40e8-8afc-d31d-ccfd-761f5e515542.webp",
+                "is_multi_price": true,
+                "market_price": "899",
+                "name": "乳胶床垫·青春版",
+                "price": "899",
+                "product_desc": "泰国直釆天然乳胶 / 0胶水分层设计 / 德国物理防螨内胆套 / 可拆洗    【由 成都趣睡科技有限公司 发货并提供售后 只支持电子发票】",
+                "product_tag": ""
+            },
+            {
+                "action": {
+                    "type": "product",
+                    "path": "4700",
+                    "log_code": "recom_cart_0-14#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=4700",
+                    "recommend_code": "recom_cart_0-14#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=4700"
+                },
+                "image_url": "//i8.mifile.cn/v1/a1/beef0019-2bfb-cba6-54cc-4063592d15aa.webp",
+                "is_multi_price": false,
+                "market_price": "3999",
+                "name": "小米MIX 256GB",
+                "price": "3999",
+                "product_desc": "<font color=\"#ff4a00\">【享小米分期12期免息】</font>6.4\" 全面屏 / 全陶瓷机身 / 骁龙 821 性能版 / 6GB内存+256GB闪存 / 4400mAh 大电量 / 18K镀金 相机环指纹环 / 陶瓷声学系统 / 超声波距离感应",
+                "product_tag": ""
+            },
+            {
+                "action": {
+                    "type": "product",
+                    "path": "4985",
+                    "log_code": "recom_cart_0-15#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=4985",
+                    "recommend_code": "recom_cart_0-15#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=4985"
+                },
+                "image_url": "//i8.mifile.cn/v1/a1/08a75380-010a-7c99-bd1b-c6ff45dfa269.webp",
+                "is_multi_price": false,
+                "market_price": "99",
+                "name": "音乐蓝牙车充",
+                "price": "99",
+                "product_desc": "音乐播放 / 车载充电 / 电瓶监测 / 免提通话",
+                "product_tag": ""
+            },
+            {
+                "action": {
+                    "type": "product",
+                    "path": "5774",
+                    "log_code": "recom_cart_0-16#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=5774",
+                    "recommend_code": "recom_cart_0-16#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=5774"
+                },
+                "image_url": "//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/73a5b91039cf2d97291948a06c0c4283.jpg",
+                "is_multi_price": false,
+                "market_price": "39",
+                "name": "小米多用笔记本",
+                "price": "39",
+                "product_desc": "经典绑带设计，手工包角 / 优质PU封面，坚韧耐磨",
+                "product_tag": ""
+            },
+            {
+                "action": {
+                    "type": "product",
+                    "path": "2774",
+                    "log_code": "recom_cart_0-17#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=2774",
+                    "recommend_code": "recom_cart_0-17#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=2774"
+                },
+                "image_url": "//i8.mifile.cn/v1/a1/4d2f583e-e546-289f-3983-fdae7ef36e15.webp",
+                "is_multi_price": false,
+                "market_price": "1999",
+                "name": "九号平衡车",
+                "price": "1999",
+                "product_desc": "<font color=\"#ff4a00\">【享小米分期12期免息】</font>年轻人的酷玩具 / 骑行遥控两种玩法 / 22公里超长续航  / 轻、小、便携 / 重心驱动 / 15重安全保障",
+                "product_tag": "//i8.mifile.cn/v1/a1/fe6146dc-aef1-bc7e-e601-5fcc141da901.webp"
+            },
+            {
+                "action": {
+                    "type": "product",
+                    "path": "5024",
+                    "log_code": "recom_cart_0-18#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=5024",
+                    "recommend_code": "recom_cart_0-18#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=5024"
+                },
+                "image_url": "//i8.mifile.cn/v1/a1/cdd5e893-07e3-513e-0f40-cc156081d7e8.webp",
+                "is_multi_price": false,
+                "market_price": "199",
+                "name": "头戴式耳机 轻松版 ",
+                "price": "199",
+                "product_desc": "洁净外观设计 / 封闭式音腔 / 舒适佩戴 / 手机直推 / 青春配色",
+                "product_tag": ""
+            },
+            {
+                "action": {
+                    "type": "product",
+                    "path": "4697",
+                    "log_code": "recom_cart_0-19#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=4697",
+                    "recommend_code": "recom_cart_0-19#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=4697"
+                },
+                "image_url": "//i8.mifile.cn/v1/a1/3e831770-efa9-cc52-1756-b471f9bd046a.webp",
+                "is_multi_price": false,
+                "market_price": "3499",
+                "name": "小米Note 2 高配全球版",
+                "price": "3499",
+                "product_desc": "<font color=\"#ff4a00\">【下单立减300元 享小米分期12期免息】</font>5.7\" 双曲面柔性屏 / 3D曲面玻璃 / 骁龙 821 性能版 / 2256万超高像素相机 / 4070mAh 超长续航",
+                "product_tag": "//i8.mifile.cn/v1/a1/795858ea-e572-9167-9c26-2cb43ae0b942.webp"
+            },
+            {
+                "action": {
+                    "type": "product",
+                    "path": "5686",
+                    "log_code": "recom_cart_0-20#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=5686",
+                    "recommend_code": "recom_cart_0-20#eid=15:0:0:0:0:0:0:0:0:0&tid=mishop-home_page_list-1496629520092-48&page=cart&pid=5686"
+                },
+                "image_url": "//i8.mifile.cn/v1/a1/67a2ccc7-a18d-b695-90b7-a61012e772d5.webp",
+                "is_multi_price": false,
+                "market_price": "79",
+                "name": "小米木纹鼠标垫",
+                "price": "79",
+                "product_desc": "天然纹理，原木质感 / 极致纤薄，工艺革新",
+                "product_tag": "//i8.mifile.cn/v1/a1/51a2cee2-8fdc-a17c-cbfb-d3c19c9996f6.webp"
+            }
+        ],
+        "title": "为你推荐"
+    }
+}
