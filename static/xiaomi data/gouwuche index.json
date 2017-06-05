@@ -1,0 +1,39 @@
+{
+    "code": 0,
+    "result": "ok",
+    "description": "success",
+    "data": {
+        "ActDiscountMin": null,
+        "ActTotalMoney": null,
+        "activityDiscountMoney": null,
+        "activitys": {
+            "coupons": [],
+            "gift": [],
+            "postFree": [],
+            "postFrees": [],
+            "reduction": []
+        },
+        "address_match": "common",
+        "appConfig": {
+            "CODExpense": "20",
+            "discountMin": "150",
+            "shipmentDesc": "全场满¥150免运费，除电视、净水器、体重秤",
+            "shipmentExpense": "10"
+        },
+        "bargains": [],
+        "has": [],
+        "hasBargainSupply": false,
+        "items": [],
+        "orderMoney": 0,
+        "orderMoneySelGoods": 0,
+        "postFree": false,
+        "postFreeBalance": "150",
+        "productMoney": null,
+        "productMoneySelGoods": null,
+        "specialMoney": null,
+        "total": 0,
+        "totalSelGoods": 0,
+        "totalWithoutGift": 0,
+        "totalprice": "0"
+    }
+}
