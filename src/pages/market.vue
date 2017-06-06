@@ -9,9 +9,21 @@
       </ul>
     </div>
     <div  class="market_right">
-      <div  v-for="item in data.category_list">
-        <img src="{ item.body }" alt="">
-        <span></span>
+      <div  v-for="item in data">
+        <div  v-for="market_body in item.category_list">
+
+          <div  v-for="market_img in market_body.body.items">
+
+
+            <img  :src="market_img.img_url" alt="">
+            <span>{{ market_body.body.category_name }}</span>
+
+          </div>
+
+        </div>
+
+
+
         <figure>
           <img src="" alt="">
           <figcaption></figcaption>
@@ -71,5 +83,6 @@
   .market_right{
     float:left;
     width:3.0822rem;
+    font-size:0.15rem;
   }
 </style>
