@@ -10,49 +10,278 @@
         </div>
 
         <div class="lunbo">
-            
+            <swiper :imglist="imglist"></swiper>
         </div>
 
-        <!-- <div class="zaobao">
-            <img :src="data1.title_logo_url" alt="">
+        <div class="zaobao">
+            <img :src="data.title_logo_url" alt="">
             <ul>
-                <li v-for="key in data">{{ key.sections[0].body.items.news_title }}</li>
+                <li v-for="key in data.items">{{ key.news_title }}</li>
             </ul>
-        </div> -->
+        </div>
 
-        <!-- <div class="zuigao">
+        <div class="zuigao">
             <ul>
                 <li>
-                    <img :src="data.sections[3].body.items[0].img_url" alt="" style="">
+                    <img :src="data3_1.img_url" alt="" style="">
                 </li>
                 <li>
-                    <img :src="data.sections[3].body.items[1].img_url" alt="">
-                    <img :src="data.sections[3].body.items[2].img_url" alt="">
+                    <img :src="data3_2.img_url" alt="">
+                    <img :src="data3_3.img_url" alt="">
                 </li>
             </ul>
-        </div> -->
+        </div>
 
-        <!-- <ul class="lijian">
+        <ul class="lijian">
             <li>
-                <img :src="data.sections[5].body.items[0].img_url_webp" alt="">
+                <img :src="data5.img_url_webp" alt="">
             </li>
-        </ul> -->
+        </ul>
 
-       <!--  <div class="mingxing">
-            <img :src="data.sections[7].body.items[0].img_url" alt="">
+        <div class="mingxing">
+            <img :src="data7.img_url" alt="">
             <ul>
-                <li v-for="">
-                    <dl>
-                        <dd v-for="key in data.sections[9].body.items">
+                <li>
+                    <dl v-for="key in data9.items">
+                        <dd>
                             <img :src="key.img_url" alt="">
                         </dd>
-                        <dt>{{ key.product_name }}</dt>
-                        <dt>{{ key.product_brief }}</dt>
-                        <dt>{{ key.product_price }}</dt>
+                        <div>
+                            <dt>{{ key.product_name }}</dt>
+                            <dt>{{ key.product_brief }}</dt>
+                            <dt>￥{{ key.product_price }}</dt>
+                        </div>
+                    </dl>
+                </li>
+                <li>
+                    <dl v-for="key in data10.items">
+                        <dd>
+                            <img :src="key.img_url" alt="">
+                        </dd>
+                        <div>
+                            <dt>{{ key.product_name }}</dt>
+                            <dt>{{ key.product_brief }}</dt>
+                            <dt>￥{{ key.product_price }}</dt>
+                        </div>
+                    </dl>
+                </li>
+                <li>
+                    <dl v-for="key in data11.items">
+                        <dd>
+                            <img :src="key.img_url" alt="">
+                        </dd>
+                        <div>
+                            <dt>{{ key.product_name }}</dt>
+                            <dt>{{ key.product_brief }}</dt>
+                            <dt>￥{{ key.product_price }}</dt>
+                        </div>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+
+        <div class="xiaomi">
+            <img :src="data13.img_url" alt="">
+        </div>
+
+        <div class="mingxing">
+            <img :src="data15.img_url" alt="">
+            <ul>
+                <li>
+                    <dl v-for="key in data17.items">
+                        <dd>
+                            <img :src="key.img_url" alt="">
+                        </dd>
+                        <div>
+                            <dt>{{ key.product_name }}</dt>
+                            <dt>{{ key.product_brief }}</dt>
+                            <dt>￥{{ key.product_price }}</dt>
+                        </div>
+                    </dl>
+                </li>
+                <li>
+                    <dl v-for="key in data18.items">
+                        <dd>
+                            <img :src="key.img_url" alt="">
+                        </dd>
+                        <div>
+                            <dt>{{ key.product_name }}</dt>
+                            <dt>{{ key.product_brief }}</dt>
+                            <dt>￥{{ key.product_price }}</dt>
+                        </div>
+                    </dl>
+                </li>
+                <li>
+                    <dl v-for="key in data19.items">
+                        <dd>
+                            <img :src="key.img_url" alt="">
+                        </dd>
+                        <div>
+                            <dt>{{ key.product_name }}</dt>
+                            <dt>{{ key.product_brief }}</dt>
+                            <dt>￥{{ key.product_price }}</dt>
+                        </div>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+
+        <div class="more">
+            更多新品 >
+        </div>
+
+        <div class="mingxing">
+            <img :src="data23.img_url" alt="">
+        </div>
+
+        <div class="mitu">
+            <ul>
+                <li>
+                    <img :src="data25.img_url" alt="">
+                    <div>
+                        <p>{{ data25.product_name }}</p>
+                        <p>{{ data25.product_brief }}</p>
+                        <p>￥{{ data25.product_price }}</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <p>{{ data26.product_name }}</p>
+                        <p>{{ data26.product_brief }}</p>
+                        <p>￥{{ data26.product_price }}</p>
+                    </div>
+                    <img :src="data26.img_url" alt="">
+                </li>
+                <li>
+                    <img :src="data27.img_url" alt="">
+                    <div>
+                        <p>{{ data27.product_name }}</p>
+                        <p>{{ data27.product_brief }}</p>
+                        <p>￥{{ data27.product_price }}</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="more more1" @click="more()">{{ data28.action_title }} ></div>
+
+        <div class="study">
+            <ul>
+                <li v-for="key in data30.items">
+                    <img :src="key.img_url" alt="">
+                </li>
+                <li v-for="key in data32.items">
+                    <img :src="key.img_url" alt="">
+                </li>
+                <li v-for="key in data34.items">
+                    <img :src="key.img_url" alt="">
+                </li>
+            </ul>
+        </div>
+
+        <div class="cai">
+            <img :src="data35.img_url" alt="">
+        </div>
+
+        <div class="mingxing">
+            <ul>
+                <li>
+                    <dl>
+                        <dd>
+                            <img :src="datab0_1.img_url" alt="">
+                        </dd>
+                        <div>
+                            <dt>{{ datab0_1.product_name }}</dt>
+                            <dt>{{ datab0_1.product_brief }}</dt>
+                            <dt>￥{{ datab0_1.product_price }}</dt>
+                        </div>
+                    </dl>
+                    <dl>
+                        <dd>
+                            <img :src="datab0_2.img_url" alt="">
+                        </dd>
+                        <div>
+                            <dt>{{ datab0_2.product_name }}</dt>
+                            <dt>{{ datab0_2.product_brief }}</dt>
+                            <dt>￥{{ datab0_2.product_price }}</dt>
+                        </div>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dd>
+                            <img :src="datab1_1.img_url" alt="">
+                        </dd>
+                        <div>
+                            <dt>{{ datab1_1.product_name }}</dt>
+                            <dt>{{ datab1_1.product_brief }}</dt>
+                            <dt>￥{{ datab1_1.product_price }}</dt>
+                        </div>
+                    </dl>
+                    <dl>
+                        <dd>
+                            <img :src="datab1_2.img_url" alt="">
+                        </dd>
+                        <div>
+                            <dt>{{ datab1_2.product_name }}</dt>
+                            <dt>{{ datab1_2.product_brief }}</dt>
+                            <dt>￥{{ datab1_2.product_price }}</dt>
+                        </div>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dd>
+                            <img :src="datab2_1.img_url" alt="">
+                        </dd>
+                        <div>
+                            <dt>{{ datab2_1.product_name }}</dt>
+                            <dt>{{ datab2_1.product_brief }}</dt>
+                            <dt>￥{{ datab2_1.product_price }}</dt>
+                        </div>
+                    </dl>
+                    <dl>
+                        <dd>
+                            <img :src="datab2_2.img_url" alt="">
+                        </dd>
+                        <div>
+                            <dt>{{ datab2_2.product_name }}</dt>
+                            <dt>{{ datab2_2.product_brief }}</dt>
+                            <dt>￥{{ datab2_2.product_price }}</dt>
+                        </div>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+
+        <!-- <div class="zhichang">
+            <img :src="datab4.img_url" alt="">
+            <ul>
+                <li>
+                    <dl>
+                        <dd>
+                            <img :src="datab5_1.img_url" alt="">
+                        </dd>
+                        <div>
+                            <dt>{{ datab2_1.product_name }}</dt>
+                            <dt>{{ datab2_1.product_brief }}</dt>
+                            <dt>￥{{ datab2_1.product_price }}</dt>
+                        </div>
+                    </dl>
+                    <dl>
+                        <dd>
+                            <img :src="datab2_2.img_url" alt="">
+                        </dd>
+                        <div>
+                            <dt>{{ datab2_2.product_name }}</dt>
+                            <dt>{{ datab2_2.product_brief }}</dt>
+                            <dt>￥{{ datab2_2.product_price }}</dt>
+                        </div>
                     </dl>
                 </li>
             </ul>
         </div> -->
+
 
 
         <div class="dibu">
@@ -64,28 +293,64 @@
 </template>
 
 <script>
+    import Swiper from '../components/swiper'
+
     export default {
         name: "home",
         data () {
             return{
-                data: [], data1: [] /*data2: [], data3: [], data4: [], data5: [], data6: [], data7: [], data8: [], data9: [], data10: [], data11: [], data12: [], data13: [], data14: [], data15: [], data16: [], data17: [], data18: [], data19: [], data20: [], data21: [], data22: [], data23: [], data24: [], data25: [], data26: [], data27: [], data28: [], data29: [], data30: [], data31: [], data32: [], data33: [], data34: [], data35: [], data36: [], data37: [], data38: [], data39: []*/
+                imglist: [],
+                data: [], data3_1: [], data3_2: [], data3_3: [], data5: [], data7: [], data9: [], data10: [], data11: [], data13: [], data15: [], data17: [], data18: [], data19: [], data23: [], data25: [], data26: [], data27: [], data28: [], data30: [], data32: [], data34: [], data35: [],
+                datab0_1: [], datab0_2: [], datab1_1: [], datab1_2: [], datab2_1: [], datab2_2: [], datab4: [], 
+
             }
         },
         created () {
             this.axios.get('../../static/xiaomi data/index3.json').then(res => {
-                console.log(res.data.data)
-                this.data = res.data.data;
-                this.data1 = res.data.data.sections[0].body;
+                this.imglist = res.data.data.header.body.items;
+                console.log(this.imglist)
+                this.data = res.data.data.sections[0].body;
+                this.data3_1 = res.data.data.sections[3].body.items[0];
+                this.data3_2 = res.data.data.sections[3].body.items[1];
+                this.data3_3 = res.data.data.sections[3].body.items[2];
+                this.data5 = res.data.data.sections[5].body.items[0];
+                this.data7 = res.data.data.sections[7].body.items[0];
+                this.data9 = res.data.data.sections[9].body;
+                this.data10 = res.data.data.sections[10].body;
+                this.data11 = res.data.data.sections[11].body;
+                this.data13 = res.data.data.sections[13].body.items[0];
+                this.data15 = res.data.data.sections[15].body.items[0];
+                this.data17 = res.data.data.sections[17].body;
+                this.data18 = res.data.data.sections[18].body;
+                this.data19 = res.data.data.sections[19].body;
+                this.data23 = res.data.data.sections[23].body.items[0];
+                this.data25 = res.data.data.sections[25].body.items[0];
+                this.data26 = res.data.data.sections[26].body.items[0];
+                this.data27 = res.data.data.sections[27].body.items[0];
+                this.data28 = res.data.data.sections[28].body.items[0];
+                this.data30 = res.data.data.sections[30].body;
+                this.data32 = res.data.data.sections[32].body;
+                this.data34 = res.data.data.sections[34].body;
+                this.data35 = res.data.data.sections[35].body.items[0];
+            }),
+            this.axios.get('../../static/xiaomi data/index4.json').then(res => {
+                this.datab0_1 = res.data.data.sections[0].body.items[0];
+                this.datab0_2 = res.data.data.sections[0].body.items[1];
+                this.datab1_1 = res.data.data.sections[1].body.items[0];
+                this.datab1_2 = res.data.data.sections[1].body.items[1];
+                this.datab2_1 = res.data.data.sections[2].body.items[0];
+                this.datab2_2 = res.data.data.sections[2].body.items[1];
+                this.datab4 = res.data.data.sections[4].body.items[0];
             })
         },
         methods: {
             sou(){
 
             }
+        },
+        components: {
+            Swiper
         }
-
-        
-
 
     }
 
@@ -198,12 +463,148 @@
         }
 
         .mingxing{
-            margin: 0.09rem 0 0.01rem;
+            margin-top: 0.09rem;
         }
-        .mingxing,.mingxing img{
+        .mingxing>img{
             height: 2.53rem;
             width: 100%;
+            display: block;
+            margin-bottom: 0.01rem;
         }
+        .mingxing ul>li{
+            display: flex;
+            justify-content: space-between;
+            dl{
+                dd{
+                    img{
+                        display: block;
+                        height: 2.07rem;
+                        width: 2.07rem;
+                    }
+                }
+                div{
+                    box-sizing: border-box;
+                    padding: 0.1rem;
+                    height: 0.91rem;
+                    background: #fff;
+                    dt{
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis; 
+                    }
+                    dt:first-child{
+                        font-size: 0.15rem;
+                        color: rgba(0,0,0,.87);
+                        height: 0.21rem;
+                        line-height: 0.21rem;
+                    }
+                    dt:nth-child(2){
+                        font-size: 0.13rem;
+                        margin: 0.05rem 0;
+                        color: rgba(0,0,0,.54);
+                        height: 0.17rem;
+                        line-height: 0.17rem;
+                    }
+                    dt:last-child{
+                        font-size: 0.18rem;
+                        color: #ff6000;
+                        height: 0.22rem;
+                        line-height: 0.22rem;
+                    }
+                }
+            }
+        }
+
+        .xiaomi{
+            margin: 0.09rem 0;
+        }
+        .xiaomi,.xiaomi img{
+            height: 1.61rem;
+            width: 100%;
+        }
+
+        .more{
+            height: 0.57rem;
+            background: #fff;
+            text-align: center;
+            line-height: 0.57rem;
+            color: rgba(0,0,0,.6);
+            font-size: 0.16rem;
+            margin: 0.01rem 0 0.09rem;
+        }
+        .more1{
+            margin: 0;
+        }
+
+        .mitu{
+            width: 100%;
+            background: #fff;
+            ul li{
+                height: 2.07rem;
+                display: flex;
+                img{
+                    height: 2.07rem;
+                    width: 2.07rem;
+                }
+                div{
+                    height: 2.07rem;
+                    width: 2.07rem;
+                    padding: 0.3rem 0.15rem;
+                    p:first-child{
+                        font-size: 0.17rem;
+                        color: rgba(0,0,0,.87);
+                        height: 0.21rem;
+                        line-height: 0.21rem;
+                    }
+                    p:nth-child(2){
+                        font-size: 0.13rem;
+                        margin: 0.05rem 0 0.08rem;
+                        color: rgba(0,0,0,.54);
+                        line-height: 0.20rem;
+                    }
+                    p:last-child{
+                        font-size: 0.18rem;
+                        color: #ff6000;
+                        height: 0.22rem;
+                        line-height: 0.22rem;
+                    }
+                }
+            }
+        }
+
+        .study{
+            width: 100%;
+            overflow: hidden;
+            ul>li{
+                img{
+                    display: block;
+                    height: 2.76rem;
+                    width: 2.058rem;
+                }
+                img:first-child{
+                    float: left;
+                }
+                img:last-child{
+                    float: right;
+                }
+            }
+        }
+
+        .cai,.cai img{
+            height: 0.69rem;
+            width: 100%;
+            display: block;
+        }
+
+        .zhichang{
+            margin-top: 0.09rem;
+        }
+        .zhichang,.zhichang img{
+            display: block;
+            height: 0.46rem;
+            width: 100%;
+        }
+
 
 
 
