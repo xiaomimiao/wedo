@@ -3,7 +3,7 @@
         <div class="header">
             <img src="../../static/img/logo.png" alt="">
             <div class="sou" @click="sou()">
-                <input type="text" placeholder="搜索商品名称">
+                <input type="text" value="搜索商品名称">
             </div>
             <span>登录</span>
         </div>
@@ -13,7 +13,7 @@
         <div class="zaobao">
             <img src="../../static/img/sczb_ed0a4af.png" alt="">
             <ul>
-                <!-- <li v-for="msg in data">{{ msg }}</li> -->
+                <li></li>
             </ul>
         </div>
     </div>
@@ -22,9 +22,6 @@
 <script>
     export default {
         name: "home",
-        data: {
-            // msg
-        },
         methods: {
             sou(){
 
@@ -64,8 +61,9 @@
                 outline: none;
                 font-size: 0.15rem;
                 position: absolute;
-                top: 0.07rem;
+                top: 0.06rem;
                 left: 0.36rem;
+                color: rgba(0,0,0,.3);
             }
         }
         .header span{
