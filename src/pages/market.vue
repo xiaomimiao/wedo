@@ -45,7 +45,7 @@
     created(){
       this.axios.get('../static/xiaomi data/category_v2.json').then(res =>{
         this.data = res.data.data
-    })
+      })
     }
 
   }

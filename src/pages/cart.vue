@@ -6,7 +6,7 @@
 		        <img src="../../static/img/search.png" />
 	      </div>
 	      <div class="go_guang">
-	  	       <img src="../../static/img/cartnull_0de91f1.png">
+	  	       <!-- <img src="../../static/img/cartnull_0de91f1.png"> -->
 	  	       <p>购物车还是空的</p>
 	  	       <p>去逛逛</p>
 	      </div>
