@@ -1,6 +1,7 @@
 <template>
     <div class="home">
         <div class="header">
+
             <img src="../../static/img/logo.png" alt="">
             <div class="sou" @click="sou()">
                 <input type="text" value="搜索商品名称">
@@ -8,7 +9,7 @@
             <span>登录</span>
         </div>
         <div class="lunbo">
-            
+            <swiper :imglist="imglist"></swiper>
         </div>
         <div class="zaobao">
             <img src="../../static/img/sczb_ed0a4af.png" alt="">
@@ -20,13 +21,25 @@
 </template>
 
 <script>
+    import Swiper from "../components/swiper.vue"
+
     export default {
         name: "home",
+        data(){
+            return {
+                imglist: [{url: "../../static/img/sczb_ed0a4af.png"}, {url: "../../static/img/sczb_ed0a4af.png"}]
+            }
+        },
         methods: {
             sou(){
 
             }
+        },
+
+        components: {
+            Swiper
         }
+        
     }
 
 </script>
