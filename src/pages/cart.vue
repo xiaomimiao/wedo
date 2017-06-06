@@ -13,14 +13,14 @@
 	      <div class="list_img">
 	            <ul>
 	                <li v-for='item in data.recom_list'>
-	                   <img :src='item.image_url' > 
-	                 
-	                
-	                
+	                   <img :src='item.image_url' >
+
+
+
 	                </li>
-	            
-	            
-	            
+
+
+
 	            </ul>
 	      </div>
     </div>
@@ -64,7 +64,7 @@
     .head img:first-of-type{
     	margin-left:-0.6rem;
     	margin-top: 0.1rem;
-    	
+
     }
     .head img:last-of-type{
     	margin-right:-0.6rem;
@@ -87,7 +87,7 @@
     }
     .go_guang p:first-of-type{
     	color:rgba(0,0,0,.27);
-    
+
     }
     .go_guang p:last-of-type{
     	width: 0.71rem;
@@ -97,5 +97,5 @@
     	border: 1px solid rgba(0,0,0,.15);
     	margin-top:0.15rem ;
     	margin-left: 0.1rem;
-    } 
+    }
 </style>
