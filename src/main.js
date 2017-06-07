@@ -10,6 +10,8 @@ import App from './App'
 // 如果引入的是文件夹内部的index.js文件，可以不写index
 import router from './router'
 
+import Vuex from 'vuex'
+Vue.use(Vuex)
 
 // 引入vue-resource
 /*import VueResource from 'vue-resource'
@@ -26,10 +28,31 @@ import axios from 'axios'
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
+
+const store = new Vuex.Store({
+    state: {
+        obj:{}
+    },
+    mutations: {
+        ADDOBJ (state, item) {
+            console.log(123);
+            state.obj = item
+        }
+    },
+    getters:{
+        get(state){
+            return state.obj;
+        }
+    },
+    actions:{
+
+    }
+})
+
 new Vue({
   el: '#app',
   template: '<App/>',
   components: { App },
-  router //将路由挂载到实例上
+  router, //将路由挂载到实例上
+  store
 })
-

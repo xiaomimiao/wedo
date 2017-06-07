@@ -1,8 +1,8 @@
-/* 
+/*
 * @Author: anchen
 * @Date:   2017-06-02 11:23:33
 * @Last Modified by:   anchen
-* @Last Modified time: 2017-06-07 10:15:04
+* @Last Modified time: 2017-06-07 11:56:03
 */
 // 引入vue
 import Vue from 'vue'
@@ -31,11 +31,13 @@ const routes = [
     {path: '/cart', component: cart},
     {path: '/mine', component: mine},
     {path: '/login', component: login},
+
     {path: '/sou', component: sou},
-    {path: '/detial', component: detial},
+    {path: '/detial/id', component: detial},
     {path: '/dingdan', component: dingdan},
     {path: '/shouhou', component: shouhou}
-]; 
+];
+
 
 //导出创建好的router对象
 export default new VueRouter({
@@ -43,4 +45,4 @@ export default new VueRouter({
 })
 
 
- 
+
