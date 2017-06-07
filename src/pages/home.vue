@@ -2,6 +2,7 @@
     <div class="home">
 
         <div class="header">
+
             <img src="../../static/img/logo.png" alt="">
             <div class="sou" @click="sou()">
                 <input type="text" value="搜索商品名称">
@@ -308,7 +309,7 @@
         created () {
             this.axios.get('../../static/xiaomi data/index3.json').then(res => {
                 this.imglist = res.data.data.header.body.items;
-                console.log(this.imglist)
+                console.log(this.imglist);
                 this.data = res.data.data.sections[0].body;
                 this.data3_1 = res.data.data.sections[3].body.items[0];
                 this.data3_2 = res.data.data.sections[3].body.items[1];
@@ -348,10 +349,11 @@
 
             }
         },
+
         components: {
             Swiper
         }
-
+    
     }
 
 </script>
