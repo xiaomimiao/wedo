@@ -41,7 +41,6 @@
                 this.data = res.data.data;
                 console.log(this.data)
         })
-
     }
 }
 </script>
@@ -99,11 +98,10 @@
     	border: 1px solid rgba(0,0,0,.15);
     	margin-top:0.15rem ;
     	margin-left: 0.1rem;
-<<<<<<< HEAD
+
     }
-</style>
-=======
-    } 
+
+
     .for_you{
     	width:100%;
     	height:0.46rem;
@@ -147,4 +145,4 @@
     }
 
 </style>
->>>>>>> 3976428e807a6d3ec6d607fd6502d13b64f5c82c
+
