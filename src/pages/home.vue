@@ -18,6 +18,7 @@
                 <!-- Optional controls -->
                 <div class="swiper-pagination" slot="pagination"></div>
             </swiper>
+
         </div>
 
         <div class="zaobao">
@@ -270,6 +271,7 @@
 
 <script>
     import { swiper, swiperSlide } from 'vue-awesome-swiper'
+
     export default {
 
         name: "home",
@@ -279,12 +281,6 @@
                 data: [], data3_1: [], data3_2: [], data3_3: [], data5: [], data7: [], data9: [], data10: [], data11: [], data13: [], data15: [], data17: [], data18: [], data19: [], data23: [], data25: [], data26: [], data27: [], data28: [], data30: [], data32: [], data34: [], data35: [],
                 datab0_1: {items: ['']}, datab0_2: '', datab1_1: [], datab1_2: [], datab2_1: [], datab2_2: [],
                 scroll: '',
-
-                swiperOption: {
-                    autoplay: 1000,
-                    direction : 'horizontal',
-                    pagination : '.swiper-pagination',
-                }
             }
         },
         created () {
@@ -339,12 +335,6 @@
 
         components: {
             swiper, swiperSlide
-        },
-        // 如果你需要得到当前的swiper对象来做一些事情，你可以像下面这样定义一个方法属性来获取当前的swiper对象，同时notNextTick必须为true
-        computed: {
-            swiper() {
-                return this.$refs.mySwiper.swiper
-            }
         }
     
     }
@@ -362,8 +352,7 @@
             left: 0;
             right: 0;
             height: 0.48rem;
-            background: rgb(229, 131, 53);
-            z-index: 2;
+            z-index:2;
         }
         .header>img{
             height: 0.18rem;
