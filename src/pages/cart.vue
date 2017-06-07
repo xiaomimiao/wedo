@@ -6,7 +6,7 @@
 		        <img src="../../static/img/search.png" />
 	      </div>
 	      <div class="go_guang">
-	  	       <img src="../../static/img/cartnull_0de91f1.png">
+	  	       <!-- <img src="../../static/img/cartnull_0de91f1.png"> -->
 	  	       <p>购物车还是空的</p>
 	  	       <p>去逛逛</p>
 	      </div>
@@ -16,12 +16,23 @@
 	      <div class="list_img">
 	            <ul class='list_img_ul'>
 	                <li v-for='item in data.recom_list'>
+<<<<<<< HEAD
+	                   <img :src='item.image_url' >
+
+
+
+	                </li>
+
+
+
+=======
 	                   <img :src='item.image_url' :style="{width:'2.04rem',height:'2.04rem'}">
 	                   <div class='price_div'>	
 		                   <p>{{item.name}}</p>
 		                   <p class='price'><span>￥{{item.price}}</span><span>￥{{item.market_price}}</span></p>
 	                   </div>
 	               </li>
+>>>>>>> 3976428e807a6d3ec6d607fd6502d13b64f5c82c
 	            </ul>
 	      </div>
 	      <div class='kong'></div>
@@ -66,7 +77,7 @@
     .head img:first-of-type{
     	margin-left:-0.6rem;
     	margin-top: 0.1rem;
-    	
+
     }
     .head img:last-of-type{
     	margin-right:-0.6rem;
@@ -89,7 +100,7 @@
     }
     .go_guang p:first-of-type{
     	color:rgba(0,0,0,.27);
-    
+
     }
     .go_guang p:last-of-type{
     	width: 0.71rem;
@@ -99,6 +110,10 @@
     	border: 1px solid rgba(0,0,0,.15);
     	margin-top:0.15rem ;
     	margin-left: 0.1rem;
+<<<<<<< HEAD
+    }
+</style>
+=======
     } 
     .for_you{
     	width:100%;
@@ -143,3 +158,4 @@
     }
 
 </style>
+>>>>>>> 3976428e807a6d3ec6d607fd6502d13b64f5c82c

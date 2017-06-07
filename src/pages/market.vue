@@ -1,51 +1,87 @@
 <template>
   <div class="market">
-    <div  class="market_head">
-      <h2>产品分类</h2>
-    </div>
-    <div class="market_left">
-      <ul v-for="item in data">
-        <li>{{ item.category_name }}</li>
-      </ul>
-    </div>
+      <div  class="market_head">
+          <h2>商品分类</h2>
+      </div>
+      <div class="market_left">
+          <ul>
+
+              <li  v-for="(item,index) in data.data"  @click="change_list(item.category_id)" :style="i == item.category_id ? { color: '#fb7d34',fontSize:'0.2rem' } : { color: '#333',fontSize:'0.1562rem' }"  >{{ item.category_name }}</li>
+
+          </ul>
+      </div>
+
     <div  class="market_right">
-      <div  v-for="item in data">
-        <div  v-for="market_body in item.category_list">
 
-          <div  v-for="market_img in market_body.body.items">
+      <div  v-for="(item,index) in data.data">
 
+        <div  v-for="(market_item,inde) in data.data[index].category_list"    >
 
-            <img  :src="market_img.img_url" alt="">
-            <span>{{ market_body.body.category_name }}</span>
+          <p  v-show ="market_item.body.category_name != ''" ><span>—</span>{{ market_item.body.category_name }}<span>—</span></p>
 
-          </div>
+            <div style="overflow: hidden;">
+
+              <figure v-for="(market_img,ind) in market_item.body.items"  class="market_small"  style="float:left">
+
+                <img      :src="market_img.img_url" alt=""  :style="{
+
+                  width:market_item.is_show == 'Y' ? 2.875 + 'rem ' : 0.575 +'rem',
+                  height:market_item.is_show == 'Y' ? 1.15 +'rem': 0.575 +'rem',
+                  }"  v-show="  market_item.is_show == 'Y' ">
+
+                    <img  :src="market_img.img_url" alt=""  :style="{
+
+                    width:market_item.is_show == 'Y' ? 2.875 + 'rem ' : 0.575 +'rem',
+                    height:market_item.is_show == 'Y' ? 1.15 +'rem': 0.575 +'rem',
+                    margin:margin
+
+                    }"   v-show="  market_item.is_show != 'Y' " >
+
+                    <figcaption v-if="market_img.product_name?true:null">{{ market_img.product_name }}</figcaption>
+
+              </figure>
+
+            </div>
 
         </div>
 
-
-
-        <figure>
-          <img src="" alt="">
-          <figcaption></figcaption>
-        </figure>
       </div>
+
+      </div>
+
     </div>
-  </div>
+
 </template>
+
 <script>
 
 
   export default {
     name: "market",
+
     data(){
       return{
-        data:[]
+        left:'left',
+        margin:'0 0.15rem',
+        data:[],
+        i: 0
       }
+    },
+    methods:{
+       change_list(a){
+
+         this.i = a;
+       }
     },
     created(){
       this.axios.get('../static/xiaomi data/category_v2.json').then(res =>{
+<<<<<<< HEAD
         this.data = res.data.data
+      })
+=======
+        this.data = res.data
     })
+>>>>>>> 421533390b08fcf107deda1f2723fcee617824b3
     }
 
   }
@@ -71,7 +107,9 @@
     float:left;
     background-color:#fefefe;
     width:0.8739rem;
-    padding:0.115rem 0.1725rem 0.115rem 0;
+    padding:0.115rem 0 0.115rem 0;
+    height:5.75rem;
+    overflow-y:scroll;
   }
   .market_left ul li{
     font-size:0.1562rem;
@@ -80,9 +118,49 @@
     line-height:0.4849rem;
     text-align:center;
   }
+
+  /*a{*/
+    /*color:#333;*/
+    /*font-size:0.1562rem;*/
+  /*}*/
+
   .market_right{
     float:left;
-    width:3.0822rem;
-    font-size:0.15rem;
+    width:3.05rem;
+    padding:0.02rem 0;
+    margin-left:0.2rem;
+    height:5.75rem;
+    overflow-y:scroll;
+    font-size:0.11rem;
   }
+
+  .market_right p{
+    width:2.95rem;
+    font-size:0.161rem;
+    height:0.73rem;
+    line-height:0.73rem;
+    text-align:center;
+  }
+  .market_right p span{
+    color:#e0e0e0;
+    display:inline-block;
+  }
+  .market_right p span:first-of-type{
+    margin-right:0.1rem;
+  }
+  .market_right p span:last-of-type{
+    margin-left:0.1rem;
+  }
+
+  .market_small figure{
+    width:0.95rem;
+  }
+  .market_right figure figcaption{
+    text-align:center;
+    font-size:0.13225rem;
+    color:rgba(0,0,0,.54);
+    height:0.17rem;
+    margin:0.161rem 0 0.15rem 0;
+  }
+
 </style>

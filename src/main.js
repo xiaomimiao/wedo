@@ -1,10 +1,15 @@
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
+
+/*import VueAwesomeSwiper from "vue-awesome-swiper"
+Vue.use(VueAwesomeSwiper)*/
+
 import App from './App'
 // 将路由引入到router变量中，为了挂载vue实例上
 // 如果引入的是文件夹内部的index.js文件，可以不写index
 import router from './router'
+
 
 // 引入vue-resource
 /*import VueResource from 'vue-resource'
