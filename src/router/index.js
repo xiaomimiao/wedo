@@ -1,4 +1,4 @@
-/* 
+/*
 * @Author: anchen
 * @Date:   2017-06-02 11:23:33
 * @Last Modified by:   anchen
@@ -27,7 +27,7 @@ const routes = [
     {path: '/cart', component: cart},
     {path: '/mine', component: mine},
     {path: '/login', component: login},
-]; 
+];
 
 //导出创建好的router对象
 export default new VueRouter({
@@ -35,4 +35,4 @@ export default new VueRouter({
 })
 
 
- 
+

@@ -35,7 +35,7 @@
                     height:market_item.is_show == 'Y' ? 1.15 +'rem': 0.575 +'rem',
                     margin:margin
 
-                    }"   v-show="  market_item.is_show != 'Y' " >
+                    }"   v-show="  market_item.is_show != 'Y' "   @click="xiangqing(market_img)">
 
                     <figcaption v-if="market_img.product_name?true:null">{{ market_img.product_name }}</figcaption>
 
@@ -56,30 +56,29 @@
 <script>
 
 
-  export default {
-    name: "market",
+    export default {
+        name: "market",
 
-    data(){
-      return{
-        left:'left',
-        margin:'0 0.15rem',
-        data:[],
-        i: 0
-      }
-    },
-    methods:{
-       change_list(a){
-
-         this.i = a;
-       }
-    },
-    created(){
-        this.axios.get('../static/xiaomi data/category_v2.json').then(res =>{
-          this.data = res.data
-        })
+        data(){
+            return {
+                left: 'left',
+                margin: '0 0.15rem',
+                data: [],
+                i: 0
+            }
+        },
+        methods: {
+            change_list(a){
+                this.i = a;
+            }
+        },
+        created(){
+            this.axios.get('../static/xiaomi data/category_v2.json').then(res => {
+                this.data = res.data
+              })
+        }
     }
 
-  }
 
 </script>
 
