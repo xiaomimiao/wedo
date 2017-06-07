@@ -35,9 +35,7 @@
                     height:market_item.is_show == 'Y' ? 1.15 +'rem': 0.575 +'rem',
                     margin:margin
 
-
-                    }"   v-show="  market_item.is_show != 'Y' "   @click="xiangqing(market_img)">
-
+                    }"   v-show="  market_item.is_show != 'Y' "  @click="xiangqing(market_img)">
 
                     <figcaption v-if="market_img.product_name?true:null">{{ market_img.product_name }}</figcaption>
 
@@ -75,15 +73,18 @@
          this.i = a;
        },
        xiangqing (item) {
-          console.log(this);
-          this.$store.commit('ADDOBJ',item)
+          console.log(this)
+          this.$store.commit("ADDOBJ",item)
        }
     },
     created(){
         this.axios.get('../static/xiaomi data/category_v2.json').then(res =>{
           this.data = res.data
         })
-}
+    }
+
+  }
+
 </script>
 
 <style scoped>
