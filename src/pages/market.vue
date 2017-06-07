@@ -35,7 +35,11 @@
                     height:market_item.is_show == 'Y' ? 1.15 +'rem': 0.575 +'rem',
                     margin:margin
 
+<<<<<<< HEAD
                     }"   v-show="  market_item.is_show != 'Y' "  @click="xiangqing(market_img)">
+=======
+                    }"   v-show="  market_item.is_show != 'Y' "   @click="xiangqing(market_img)">
+>>>>>>> 11ff515d4fddba4b65fd6a271357cc222b16c43a
 
                     <figcaption v-if="market_img.product_name?true:null">{{ market_img.product_name }}</figcaption>
 
@@ -81,9 +85,6 @@
         this.axios.get('../static/xiaomi data/category_v2.json').then(res =>{
           this.data = res.data
         })
-    }
-
-  }
 
 </script>
 
