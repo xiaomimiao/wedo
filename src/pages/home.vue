@@ -11,7 +11,7 @@
         </div>
 
         <div class="lunbo">
-            <swiper :imglist="imglist"></swiper>
+            <!-- <swiper :imglist="imglist"></swiper> -->
         </div>
 
         <div class="zaobao">
@@ -294,7 +294,7 @@
 </template>
 
 <script>
-    import Swiper from '../components/swiper'
+    /*import Swiper from '../components/swiper'*/
 
     export default {
         name: "home",
@@ -350,9 +350,9 @@
             }
         },
 
-        components: {
+       /* components: {
             Swiper
-        }
+        }*/
     
     }
 

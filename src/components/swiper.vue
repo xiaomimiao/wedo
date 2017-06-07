@@ -1,10 +1,10 @@
-<template>
+<!-- <template>
     <div id="lunbo">
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide" v-for = 'img in imglist'><img :src="img.url"></div>
             </div>
-            <!-- 如果需要分页器 -->
+            如果需要分页器
             <div class="swiper-pagination"></div>
         </div>
     </div>
@@ -34,7 +34,7 @@
     #lunbo{
         width: 100%;
     }
-    #lun img{
+    #lunbo img{
         width: 100%;
     }
-</style>
+</style> -->
