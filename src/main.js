@@ -29,6 +29,8 @@ Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 
+
+
 const store = new Vuex.Store({
     state: {
         obj:{}
@@ -41,6 +43,7 @@ const store = new Vuex.Store({
     },
     getters:{
         get(state){
+            console.log("456");
             return state.obj;
         }
     },
@@ -49,6 +52,8 @@ const store = new Vuex.Store({
     }
 })
 
+
+
 new Vue({
   el: '#app',
   template: '<App/>',
@@ -56,3 +61,12 @@ new Vue({
   router, //将路由挂载到实例上
   store
 })
+
+
+/*Vue.prototype.detial = function(item){
+    console.log(this);
+    this.$store.commit("ADDOBJ",item)
+    this.$router.push({
+        path:'/detial'
+    })
+}*/

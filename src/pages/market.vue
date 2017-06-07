@@ -27,7 +27,7 @@
 
                   width:market_item.is_show == 'Y' ? 2.875 + 'rem ' : 0.575 +'rem',
                   height:market_item.is_show == 'Y' ? 1.15 +'rem': 0.575 +'rem',
-                  }"  v-show="  market_item.is_show == 'Y' ">
+                  }"  v-show="  market_item.is_show == 'Y' "  >
 
                     <img  :src="market_img.img_url" alt=""  :style="{
 
@@ -76,7 +76,7 @@
           console.log(this)
           this.$store.commit("ADDOBJ",item)
           this.$router.push({
-            path:'/detial/' + item.action.log_code
+            path:'/detial'
           })
 
        }

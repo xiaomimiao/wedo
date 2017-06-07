@@ -2,7 +2,7 @@
 * @Author: anchen
 * @Date:   2017-06-02 11:23:33
 * @Last Modified by:   anchen
-* @Last Modified time: 2017-06-07 11:56:03
+* @Last Modified time: 2017-06-07 14:42:20
 */
 // 引入vue
 import Vue from 'vue'
@@ -33,7 +33,7 @@ const routes = [
     {path: '/login', component: login},
 
     {path: '/sou', component: sou},
-    {path: '/detial/id', component: detial},
+    {path: '/detial', component: detial},
     {path: '/dingdan', component: dingdan},
     {path: '/shouhou', component: shouhou}
 ];
