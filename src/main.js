@@ -2,8 +2,8 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 
-/*import VueAwesomeSwiper from "vue-awesome-swiper"
-Vue.use(VueAwesomeSwiper)*/
+import VueAwesomeSwiper from "vue-awesome-swiper"
+Vue.use(VueAwesomeSwiper)
 
 import App from './App'
 // 将路由引入到router变量中，为了挂载vue实例上
