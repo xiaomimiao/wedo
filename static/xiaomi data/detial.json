@@ -1,0 +1,833 @@
+{
+    "code": 0, 
+    "result": "ok", 
+    "description": "success", 
+    "data": {
+        "batch_list": null, 
+        "commodity_list": {
+            "id": "", 
+            "is_sale": true, 
+            "list": [
+                {
+                    "action_button": [ ], 
+                    "commodity_id": "1164200009", 
+                    "fav": false, 
+                    "gallery": [
+                        "//i8.mifile.cn/v1/a1/760fd347-9c9f-159c-14a6-5ab02ead17aa.webp", 
+                        "//i8.mifile.cn/v1/a1/b373b04e-bbbe-d529-4b47-d24289ba9cf8.webp", 
+                        "//i8.mifile.cn/v1/a1/03448f20-3083-c438-753b-f9427cdcce5c.webp", 
+                        "//i8.mifile.cn/v1/a1/56b2f10a-0439-007d-02af-c61d14faf28c.webp"
+                    ], 
+                    "goods_list": {
+                        "id": "2164200007", 
+                        "list": [
+                            {
+                                "action_button": [
+                                    {
+                                        "name": "立即购买", 
+                                        "next_sale_time": "0", 
+                                        "next_sale_time_end": "0", 
+                                        "next_sale_tip": "", 
+                                        "occ_timeout": 3000, 
+                                        "path": "", 
+                                        "type": "common", 
+                                        "use_occ": false
+                                    }
+                                ], 
+                                "address_link": "//s1.mi.com/open/common/js/address_all_new.js", 
+                                "address_type": "common", 
+                                "buy_limit": "1", 
+                                "custom_name": "小米MIX全网通 4GB内存＋128GB容量 黑色", 
+                                "goods_id": "2164200007", 
+                                "icon": "", 
+                                "icon_color": "", 
+                                "icon_name": "128GB", 
+                                "image": "//i8.mifile.cn/v1/a1/96753035-1f74-3055-1993-1bbb3eed24c3.webp", 
+                                "image_webp": "http://i8.mifile.cn/v1/a1/96753035-1f74-3055-1993-1bbb3eed24c3.webp", 
+                                "insurance": {
+                                    "list": [
+                                        {
+                                            "goods_id": "2171600015", 
+                                            "market_price": "249", 
+                                            "name": "小米MIX 意外保险", 
+                                            "price": "249", 
+                                            "short_name": "小米MIX 意外保险", 
+                                            "type": "mi_mix"
+                                        }
+                                    ]
+                                }, 
+                                "insurance_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-data-mishop/4a15d767c1fe.html", 
+                                "is_cos": false, 
+                                "is_sale": true, 
+                                "market_price": "3499", 
+                                "name": "小米MIX 4GB+128GB 陶瓷黑", 
+                                "price": "3499", 
+                                "sales_type_name": "", 
+                                "sales_type_next_sale_time": "0", 
+                                "sales_type_next_sale_time_end": "0", 
+                                "sales_type_next_sale_tip": "", 
+                                "sales_type_url": "", 
+                                "spec_value": "128GB", 
+                                "timing_sales_type_end_time": "0", 
+                                "timing_sales_type_name": "", 
+                                "timing_sales_type_start_time": "0", 
+                                "timing_sales_type_url": ""
+                            }
+                        ], 
+                        "name": "容量"
+                    }, 
+                    "icon": "//i8.mifile.cn/v1/a1/50ea7f4d-9c75-ac29-26ca-6a213f5f2175!80x80.jpg", 
+                    "icon_name": "黑色", 
+                    "image": "//i8.mifile.cn/v1/a1/96753035-1f74-3055-1993-1bbb3eed24c3.webp", 
+                    "image_share": "http://i8.mifile.cn/v1/a1/50ea7f4d-9c75-ac29-26ca-6a213f5f2175!80x80.jpg", 
+                    "is_batched": "0", 
+                    "is_change_style": false, 
+                    "is_cos": false, 
+                    "name": "小米MIX 全网通 4GB内存＋128GB容量 黑色", 
+                    "price_max": "3499", 
+                    "price_min": "3499", 
+                    "sales_type_next_sale_time": "0", 
+                    "spec_value": "黑色", 
+                    "timing_sales_type_end_time": "0", 
+                    "timing_sales_type_start_time": "0"
+                }, 
+                {
+                    "action_button": [ ], 
+                    "commodity_id": "1164200010", 
+                    "fav": false, 
+                    "gallery": [
+                        "//i8.mifile.cn/v1/a1/204270f6-60ba-a8cb-34b3-66cc6ca37274.webp"
+                    ], 
+                    "goods_list": {
+                        "id": "2164200008", 
+                        "list": [
+                            {
+                                "action_button": [
+                                    {
+                                        "name": "立即购买", 
+                                        "next_sale_time": "0", 
+                                        "next_sale_time_end": "0", 
+                                        "next_sale_tip": "", 
+                                        "occ_timeout": 3000, 
+                                        "path": "", 
+                                        "type": "common", 
+                                        "use_occ": false
+                                    }
+                                ], 
+                                "address_link": "//s1.mi.com/open/common/js/address_all_new.js", 
+                                "address_type": "common", 
+                                "buy_limit": "1", 
+                                "custom_name": "小米MIX全网通 4GB内存＋128GB容量 皓月白", 
+                                "goods_id": "2164200008", 
+                                "icon": "", 
+                                "icon_color": "", 
+                                "icon_name": "128GB", 
+                                "image": "//i8.mifile.cn/v1/a1/0f38b4a2-15df-76bc-a502-846a04a4312c.webp", 
+                                "image_webp": "http://i8.mifile.cn/v1/a1/0f38b4a2-15df-76bc-a502-846a04a4312c.webp", 
+                                "insurance": {
+                                    "list": [
+                                        {
+                                            "goods_id": "2171600015", 
+                                            "market_price": "249", 
+                                            "name": "小米MIX 意外保险", 
+                                            "price": "249", 
+                                            "short_name": "小米MIX 意外保险", 
+                                            "type": "mi_mix"
+                                        }
+                                    ]
+                                }, 
+                                "insurance_url": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-data-mishop/4a15d767c1fe.html", 
+                                "is_cos": true, 
+                                "is_sale": true, 
+                                "market_price": "3499", 
+                                "name": "小米MIX 4GB+128GB 皓月白", 
+                                "price": "3499", 
+                                "sales_type_name": "", 
+                                "sales_type_next_sale_time": "0", 
+                                "sales_type_next_sale_time_end": "0", 
+                                "sales_type_next_sale_tip": "", 
+                                "sales_type_url": "", 
+                                "spec_value": "128GB", 
+                                "timing_sales_type_end_time": "0", 
+                                "timing_sales_type_name": "", 
+                                "timing_sales_type_start_time": "0", 
+                                "timing_sales_type_url": ""
+                            }
+                        ], 
+                        "name": "容量"
+                    }, 
+                    "icon": "//i8.mifile.cn/v1/a1/b2825a13-8490-ea6e-b738-ef9382110b9e!80x80.jpg", 
+                    "icon_name": "皓月白", 
+                    "image": "//i8.mifile.cn/v1/a1/0f38b4a2-15df-76bc-a502-846a04a4312c.webp", 
+                    "image_share": "http://i8.mifile.cn/v1/a1/b2825a13-8490-ea6e-b738-ef9382110b9e!80x80.jpg", 
+                    "is_batched": "0", 
+                    "is_change_style": false, 
+                    "is_cos": true, 
+                    "name": "小米MIX 全网通 4GB内存＋128GB容量 皓月白", 
+                    "price_max": "3499", 
+                    "price_min": "3499", 
+                    "sales_type_next_sale_time": "0", 
+                    "spec_value": "白色", 
+                    "timing_sales_type_end_time": "0", 
+                    "timing_sales_type_start_time": "0"
+                }
+            ], 
+            "name": "颜色", 
+            "product_id": "4698", 
+            "seo": {
+                "seo_description": "小米MIX 全面屏概念手机，开创性的在6.4寸超大屏幕上，做到了惊人的91.3%。", 
+                "seo_keywords": "小米MIX,小米商城", 
+                "seo_title": "小米MIX 4GB + 128GB_小米商城"
+            }
+        }, 
+        "is_virtual": false, 
+        "server_time": 1496807819, 
+        "viewContent": {
+            "attrsQaView": {
+                "attrsQaView": [
+                    {
+                        "name": "手机运营商", 
+                        "value": "移动 电信"
+                    }, 
+                    {
+                        "name": "网络制式", 
+                        "value": "4G"
+                    }, 
+                    {
+                        "name": "颜色", 
+                        "value": "黑色"
+                    }
+                ], 
+                "viewType": "attrsQaView"
+            }, 
+            "commentView": {
+                "commentView": {
+                    "detail": {
+                        "comment_labels": null, 
+                        "comments_bad": 0, 
+                        "comments_general": 139, 
+                        "comments_good": 7708, 
+                        "comments_total": 7847, 
+                        "five_star": 7418, 
+                        "four_star": 290, 
+                        "one_star": 0, 
+                        "satisfy_per": "98.2", 
+                        "three_star": 79, 
+                        "two_star": 60
+                    }, 
+                    "list": [
+                        {
+                            "add_time": "2017-05-16", 
+                            "average_grade": 5, 
+                            "comment_content": "已收到，快递神速，大早上就来送货了！手机很惊艳，小米旗舰机！第一次用小米官网！很满意，国货精品啊！希望小米越来越强！客服大汉子！来段", 
+                            "comment_full_images": [
+                                "//i1.mifile.cn/a2/1494897286_7961222_s1040_780wh.jpg"
+                            ], 
+                            "comment_grade": 1, 
+                            "comment_id": "143860214", 
+                            "comment_images": [
+                                "//cdn.cnbj0.fds.api.mi-img.com/b2c-data-mishop/c6f1277c6788a4c33fad128d16777d1c.webp"
+                            ], 
+                            "comment_title": "", 
+                            "down": false, 
+                            "down_num": 0, 
+                            "has_up_customer": false, 
+                            "is_top": "1", 
+                            "reply_content": "【世界上最珍贵的东西都是免费的】1、阳光，是免费的。2、爱情，是免费的。3、亲情，是免费的。4、微笑，是免费的。5、客服小哥，是免费的。这么多美好的东西都是免费的，上天把最珍贵的一切，免费地给予了我们每一个人。感谢您对小米的支持~", 
+                            "reply_time": "2017-05-16", 
+                            "site_id": "101", 
+                            "site_name": "小米移动商城", 
+                            "up": false, 
+                            "up_customer_num": 54, 
+                            "up_num": 42, 
+                            "up_rate": 100, 
+                            "user_avatar": "//cdn.cnbj0.fds.api.mi-img.com/b2c-data-mishop/f790b51a76afd7b41522048fa779d69d.jpg", 
+                            "user_id": "126***2142", 
+                            "user_name": "1263132142", 
+                            "user_reply_num": 0, 
+                            "user_replys": [ ]
+                        }
+                    ], 
+                    "total": 7146
+                }, 
+                "viewType": "commentView"
+            }, 
+            "descTabsView": {
+                "descTabsView": [
+                    {
+                        "name": "概述", 
+                        "tabContent": [
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/5c935f72-8644-fb54-be00-5c0ec3fd663b.webp?w=720&h=1274", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/ecc6a588-10ee-3b78-c070-3d7b955e9d15.webp?w=720&h=1265", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/848f8e52-bf8b-7bd5-781b-d3937e22219d.webp?w=720&h=512", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/3998bbb1-4eed-026b-f8a6-40170d72ea8d.webp?w=720&h=698", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/98c398d6-8c37-cbe0-a1e1-bbea453c6d88.webp?w=720&h=596", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/d204bed8-8b93-7c34-75c3-2ffb7ce42b8d.webp?w=720&h=731", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/1acc24dd-ec39-4ac5-274e-6609d5d2c00c.webp?w=720&h=427", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/7383bf48-9a29-405b-6eac-76bee6625e3b.webp?w=720&h=854", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/38051a53-fe0c-978b-d9f1-b4b0bba67a20.webp?w=720&h=663", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/598a00ab-8ea3-7123-2962-21cf31146f7c.webp?w=720&h=632", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/1e35301b-ddc1-39bc-a632-4b5cc61f1843.webp?w=720&h=508", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/e8533993-243a-90bf-7c7c-daed254e8eb5.webp?w=720&h=418", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/6633b95d-2f73-475d-6f5b-280909b9d3b9.webp?w=720&h=539", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/c33533d5-d97b-45c6-5a24-2e994f5f824b.webp?w=720&h=611", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/55da63f1-1c94-2f16-9e42-f89c35fa3322.webp?w=720&h=588", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/3a22d350-6454-cf4a-cdfe-931fa601b670.webp?w=720&h=793", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/575289c6-0b9e-7d01-dffe-186adc30205a.webp?w=720&h=376", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/90eeb337-6079-b69b-a20f-cff3678065f3.webp?w=720&h=527", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/3b156b24-8ac2-93a6-3d8f-84491debe6b9.webp?w=720&h=531", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }
+                        ]
+                    }, 
+                    {
+                        "name": "设计", 
+                        "tabContent": [
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/77734d9f-fc10-38ea-f5bc-d7f1cf1a29a9.webp?w=1080&h=644", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/9a7976c0-fc1b-79f7-f7e4-8b8da5a67e36.webp?w=1080&h=1278", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/40e4bc5a-6353-6c46-6a75-cb446946faa0.webp?w=1080&h=1192", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/239e3042-6418-58f3-aa8f-af502899851b.webp?w=1080&h=1889", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/cb8ff00f-dcaf-3cf3-c5f8-193c1d03ed90.webp?w=1080&h=913", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/9216f253-7bb4-a341-3753-bcbf221fe5e4.webp?w=1080&h=2020", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/4edbbfbd-1407-b332-c8ef-af4727cd2166.webp?w=1080&h=1894", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/380e89b9-24af-9405-4b35-90b04f8bf708.webp?w=1080&h=798", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/fcfd2785-d297-613b-3fc9-85b34e4bbc27.webp?w=1080&h=1920", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/aeeaeebf-08aa-933e-3d14-17210f4f9d3d.webp?w=1080&h=730", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/cac8a004-ac62-2f44-8e85-eae227a6fd6d.webp?w=1080&h=1922", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }
+                        ]
+                    }, 
+                    {
+                        "name": "参数", 
+                        "tabContent": [
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/c9eadd08-9ff7-9331-b94f-a3895fcd7c9a.webp?w=720&h=780", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/127ff6ac-0c91-ee37-803d-0053c36e8e3f.webp?w=720&h=445", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/8421f264-25bd-0e66-7add-c662e0f10679.webp?w=720&h=802", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/1837db5f-1646-ecac-2860-1db5a1a7b04b.webp?w=720&h=486", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/bb9e3d50-9832-4a36-3087-39f6dc4c78e0.webp?w=720&h=516", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/3b2726d6-8c9c-19da-5a8a-6bbe37da17bc.webp?w=1080&h=716", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/60ac3873-c5e2-e4a0-3a84-86a83a92cb0b.webp?w=720&h=612", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/1f9aeefa-e1c0-92cd-dd0b-dc82b264e27a.webp?w=720&h=427", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/14a5d6e9-cb8c-01cd-a785-731c17e960ef.webp?w=720&h=841", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/c085cc3c-9af8-fd0f-07e3-fe1340efb803.webp?w=720&h=552", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/d1eb9a21-9b4f-54a3-c7c8-34971ad2bd50.webp?w=720&h=426", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/0baea331-17b8-1002-4bcb-47cab806d685.webp?w=720&h=388", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/4ae881d8-80a8-2139-68c3-c959d9371688.webp?w=720&h=590", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/8f46d0a6-58d4-8e03-79b1-b94186fa437a.webp?w=720&h=1246", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/22835b35-27a6-aba4-a2c1-0cfb2854826d.webp?w=720&h=997", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/a5a723be-cfa3-af57-972d-841d78e85f7f.webp?w=1080&h=984", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/8b3345d8-6cea-8c61-42ff-0c28266229b6.webp?w=720&h=689", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }, 
+                            {
+                                "plainView": {
+                                    "content": "", 
+                                    "img": "//i8.mifile.cn/v1/a1/27ed5f54-056d-db52-7d05-28d59f389b6d.webp?w=1080&h=1863", 
+                                    "is_not_compress": "0", 
+                                    "title": ""
+                                }, 
+                                "viewType": "plainView"
+                            }
+                        ]
+                    }
+                ], 
+                "viewType": "descTabsView"
+            }, 
+            "galleryView": {
+                "galleryMediaView": {
+                    "is_front": false, 
+                    "list": [
+                        {
+                            "img_url": "//i8.mifile.cn/v1/a1/b58884b9-dcbe-d960-7dcf-fbff967613ed.jpg", 
+                            "is_out_player": false, 
+                            "middle_img_url": "", 
+                            "small_img_url": "", 
+                            "video_url": "//v.mifile.cn/b2c-mimall-media/5ee6f2fcbfb3632d015ef055bc486808.mp4", 
+                            "view_type": "videoView"
+                        }
+                    ]
+                }, 
+                "galleryView": [
+                    "//i8.mifile.cn/v1/a1/608d67f3-1b0e-bc4b-0467-1f0500ad9496.webp", 
+                    "//i8.mifile.cn/v1/a1/15e902a8-4af5-6604-9be1-9bde91e3fa8d.webp", 
+                    "//i8.mifile.cn/v1/a1/03448f20-3083-c438-753b-f9427cdcce5c.webp", 
+                    "//i8.mifile.cn/v1/a1/56b2f10a-0439-007d-02af-c61d14faf28c.webp", 
+                    "//i8.mifile.cn/v1/a1/760fd347-9c9f-159c-14a6-5ab02ead17aa.webp", 
+                    "//i8.mifile.cn/v1/a1/204270f6-60ba-a8cb-34b3-66cc6ca37274.webp"
+                ], 
+                "viewType": "galleryView"
+            }, 
+            "relatePartsView": {
+                "relatePartsView": {
+                    "desc": "耳机、移动电源、VR", 
+                    "parts": [
+                        {
+                            "buy_limit": "50", 
+                            "commodity_id": "1135200036", 
+                            "goods_id": "2135200033", 
+                            "img": "//i8.mifile.cn/v1/a1/d6987b0d-b021-1e6a-0e72-84e16fe87de5.webp", 
+                            "is_cos": false, 
+                            "price": "19.90", 
+                            "product_desc": "硬币大小，随身携带 / 搭配小米随身WiFi App，手机成为遥控器", 
+                            "product_id": "701", 
+                            "product_name": "小米随身WiFi 黑色"
+                        }, 
+                        {
+                            "buy_limit": "10", 
+                            "commodity_id": "1163300026", 
+                            "goods_id": "2163300017", 
+                            "img": "//i8.mifile.cn/v1/a1/79ed32dd-fbe9-0feb-26cd-08a4fcf4780b.webp", 
+                            "is_cos": false, 
+                            "price": "39.00", 
+                            "product_desc": "世界新看法，期待总于意料之外 / 逼真的沉浸感，舒适的佩戴体验 / 丰富内容，持续更新", 
+                            "product_id": "4290", 
+                            "product_name": "小米VR眼镜Play 黑色"
+                        }, 
+                        {
+                            "buy_limit": "10", 
+                            "commodity_id": "1163900020", 
+                            "goods_id": "2163900007", 
+                            "img": "//i8.mifile.cn/v1/a1/8d9bda62-2c84-9f8d-ecbb-1071cc3d2dff.webp", 
+                            "is_cos": false, 
+                            "price": "79.00", 
+                            "product_desc": "双向快充 / 仅 14.1mm薄 / 高密度锂聚合物电芯 / 9重安全保护", 
+                            "product_id": "4580", 
+                            "product_name": "小米移动电源2 银色"
+                        }, 
+                        {
+                            "buy_limit": "10", 
+                            "commodity_id": "1164800012", 
+                            "goods_id": "2164800012", 
+                            "img": "//i8.mifile.cn/v1/a1/4aed4723-b211-e896-18b9-1da3922ba212.webp", 
+                            "is_cos": false, 
+                            "price": "149.00", 
+                            "product_desc": "网络电台直播 / 1600万色夜灯 / 自定义铃声 / 远程控制", 
+                            "product_id": "4949", 
+                            "product_name": "米家多功能网关 白色"
+                        }, 
+                        {
+                            "buy_limit": "50", 
+                            "commodity_id": "1165100003", 
+                            "goods_id": "2165100003", 
+                            "img": "//i8.mifile.cn/v1/a1/a71686ab-57fa-de70-1a24-be281d54235f.webp", 
+                            "is_cos": false, 
+                            "price": "29.00", 
+                            "product_desc": "铝合金音腔 / 第三代平衡阻尼系统 / 五色可选", 
+                            "product_id": "5059", 
+                            "product_name": "小米活塞耳机 清新版 粉色"
+                        }
+                    ], 
+                    "title": "选购配件"
+                }, 
+                "viewType": "relatePartsView"
+            }, 
+            "titleView": {
+                "titleView": {
+                    "activity_tips": {
+                        "action": {
+                            "extra": "", 
+                            "log_code": "", 
+                            "login": false, 
+                            "path": "", 
+                            "stat": "", 
+                            "type": ""
+                        }, 
+                        "img_url": ""
+                    }, 
+                    "adapt": [ ], 
+                    "brief": "", 
+                    "canJoinActs": [
+                        {
+                            "title": "", 
+                            "type": "interestfree", 
+                            "type_desc": "分期"
+                        }
+                    ], 
+                    "is_hide_detail": false, 
+                    "market_price": "3499", 
+                    "name": "小米MIX 4GB + 128GB", 
+                    "price": "3499", 
+                    "price_max": "3499", 
+                    "price_min": "3499", 
+                    "price_tips": {
+                        "img_url": ""
+                    }, 
+                    "product_desc": "<font color=\"#ff4a00\">【享花呗6期分期免息】</font>6.4\" 全面屏 / 全陶瓷机身 / 骁龙 821 性能版 / 4GB内存+128GB闪存 / 4400mAh 大电量 / 陶瓷声学系统 / 超声波距离感应", 
+                    "share_content": ""
+                }, 
+                "viewType": "titleView"
+            }
+        }
+    }
+}

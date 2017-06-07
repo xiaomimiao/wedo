@@ -23,7 +23,7 @@
     },
 
     created(){
-        this.axios.get("").then( res => {
+        this.axios.get("this.$router.parmrs.id",{}).then( res => {
             console.log(res);
         })
 
