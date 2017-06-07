@@ -16,23 +16,12 @@
 	      <div class="list_img">
 	            <ul class='list_img_ul'>
 	                <li v-for='item in data.recom_list'>
-<<<<<<< HEAD
-	                   <img :src='item.image_url' >
-
-
-
-	                </li>
-
-
-
-=======
 	                   <img :src='item.image_url' :style="{width:'2.04rem',height:'2.04rem'}">
 	                   <div class='price_div'>	
 		                   <p>{{item.name}}</p>
 		                   <p class='price'><span>￥{{item.price}}</span><span>￥{{item.market_price}}</span></p>
 	                   </div>
 	               </li>
->>>>>>> 3976428e807a6d3ec6d607fd6502d13b64f5c82c
 	            </ul>
 	      </div>
 	      <div class='kong'></div>

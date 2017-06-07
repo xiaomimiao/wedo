@@ -74,14 +74,9 @@
        }
     },
     created(){
-      this.axios.get('../static/xiaomi data/category_v2.json').then(res =>{
-<<<<<<< HEAD
-        this.data = res.data.data
-      })
-=======
-        this.data = res.data
-    })
->>>>>>> 421533390b08fcf107deda1f2723fcee617824b3
+        this.axios.get('../static/xiaomi data/category_v2.json').then(res =>{
+          this.data = res.data
+        })
     }
 
   }
