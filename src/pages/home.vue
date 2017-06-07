@@ -1,8 +1,7 @@
 <template>
     <div class="home">
 
-        <div class="header">
-
+        <div class="header" :style="scroll >= 294 ? { background: 'rgb(229, 131, 53)'} : { background: 'rgba(0,0,0,0)' }" >
             <img src="../../static/img/logo.png" alt="">
             <div class="sou" @click="sou">
                 <input type="text" value="搜索商品名称">
@@ -11,7 +10,7 @@
         </div>
 
         <div class="lunbo">
-            <!-- <swiper :imglist="imglist"></swiper> -->
+            <swiper></swiper>
         </div>
 
         <div class="zaobao">
@@ -263,7 +262,7 @@
 </template>
 
 <script>
-    /*import Swiper from '../components/swiper'*/
+    import { swiper, swiperSlide } from 'vue-awesome-swiper'
 
     export default {
 
@@ -272,13 +271,14 @@
             return{
                 imglist: [],
                 data: [], data3_1: [], data3_2: [], data3_3: [], data5: [], data7: [], data9: [], data10: [], data11: [], data13: [], data15: [], data17: [], data18: [], data19: [], data23: [], data25: [], data26: [], data27: [], data28: [], data30: [], data32: [], data34: [], data35: [],
-                datab0_1: {items: ['']}, datab0_2: '', datab1_1: [], datab1_2: [], datab2_1: [], datab2_2: [], datab4: [], 
+                datab0_1: {items: ['']}, datab0_2: '', datab1_1: [], datab1_2: [], datab2_1: [], datab2_2: [],
+                scroll: '',
             }
         },
         created () {
             this.axios.get('../../static/xiaomi data/index3.json').then(res => {
                 this.imglist = res.data.data.header.body.items;
-                console.log(this.imglist);
+                // console.log(this.imglist);
                 this.data = res.data.data.sections[0].body;
                 this.data3_1 = res.data.data.sections[3].body.items[0];
                 this.data3_2 = res.data.data.sections[3].body.items[1];
@@ -316,12 +316,18 @@
         methods: {
             sou() {
                this.$router.push({path: '/sou'})
+            },
+            menu(){
+                this.scroll = document.body.scrollTop;
             }
         },
+        mounted(){
+            window.addEventListener('scroll', this.menu)
+        },
 
-       /* components: {
-            Swiper
-        }*/
+        components: {
+            swiper, swiperSlide
+        }
     
     }
 
