@@ -75,6 +75,10 @@
        xiangqing (item) {
           console.log(this)
           this.$store.commit("ADDOBJ",item)
+          this.$router.push({
+            path:'/detial/' + item.action.log_code
+          })
+
        }
     },
     created(){
