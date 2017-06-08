@@ -2,7 +2,7 @@
 * @Author: anchen
 * @Date:   2017-06-02 11:23:33
 * @Last Modified by:   anchen
-* @Last Modified time: 2017-06-07 14:42:20
+* @Last Modified time: 2017-06-08 09:46:03
 */
 // 引入vue
 import Vue from 'vue'
@@ -22,6 +22,7 @@ import sou from '../pages/sou'
 import detial from '../pages/detial'
 import dingdan from '../pages/dingdan'
 import shouhou from '../pages/shouhou'
+import xuanze from '../pages/xuanze'
 
 // 定义路由规则
 const routes = [
@@ -35,7 +36,8 @@ const routes = [
     {path: '/sou', component: sou},
     {path: '/detial', component: detial},
     {path: '/dingdan', component: dingdan},
-    {path: '/shouhou', component: shouhou}
+    {path: '/shouhou', component: shouhou},
+    {path: '/xuanze', component: xuanze},
 ];
 
 

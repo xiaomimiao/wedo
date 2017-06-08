@@ -41,7 +41,7 @@ export default {
   justify-content: space-around;
   align-items: center;
   background: #fff;
-  z-index: 99;
+  z-index: 9;
   border-top: 1px solid #e0e0e0;
  }
  #app .tabbar a{
