@@ -6,7 +6,7 @@
 	      <div class="list_img">
 	            <ul class='list_img_ul'>
 	                <li v-for='item in data.recom_list'>
-	                   <img :src='item.image_url' :style="{width:'2.04rem',height:'2.04rem'}">
+	                   <img :src='item.image_url' :style="{width:'2.04rem',height:'2.04rem'}" @click='xiangqing(item)'>
 	                   <div class='price_div'>	
 		                   <p>{{item.name}}</p>
 		                   <p class='price'><span>￥{{item.price}}</span><span>￥{{item.market_price}}</span></p>
@@ -22,9 +22,20 @@
         name: "cart",
         data(){
         	return{
-        		data:[]
+        		data:[],
+        		item:0
         	}
         },
+        methods:{
+        xiangqing (item) {
+          console.log(this)
+          this.$store.commit("ADDOBJ",item)
+          this.$router.push({
+            path:'/detial'
+          })
+
+       }
+       },
         created(){
         	  this.axios.get('../static/xiaomi data/recommendBlan.json' ).then(res => {
                 // 将获取的数据放在data中

@@ -1,40 +1,40 @@
-<!-- <template>
-    <div id="lunbo">
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide" v-for = 'img in imglist'><img :src="img.url"></div>
-            </div>
-            如果需要分页器
-            <div class="swiper-pagination"></div>
-        </div>
-    </div>
+<template>
+    <swiper :options="swiperOption" ref="mySwiper">
+        <!-- slides -->
+        <swiper-slide v-for="item in bannerData">
+            <img :src="item.pic">
+        </swiper-slide>
+        <!-- Optional controls -->
+        <div class="swiper-pagination" slot="pagination"></div>
+    </swiper>
 </template>
 
 <script>
-    import Swiper from 'swiper'
     export default{
-        props:['imglist'],
-        mounted(){
-            var mySwiper = new Swiper ('.swiper-container', {
-                        loop: true,
-                        autoplay: 1000,
-                        observer:true,
-                        // 如果需要分页器
-                        pagination: '.swiper-pagination'
-                    })
+        data() {
+            return {
+                swiperOption: {
+                    autoplay: 1000,
+                    direction : 'horizontal',
+                    pagination : '.swiper-pagination',
+                }
+            }
         },
-        activated(){
-            console.log(imglist);
+        // 如果你需要得到当前的swiper对象来做一些事情，你可以像下面这样定义一个方法属性来获取当前的swiper对象，同时notNextTick必须为true
+        computed: {
+            swiper() {
+                return this.$refs.mySwiper.swiper
+            }
         }
     }
 </script>
 
 <style scoped>
-    @import "../../static/swiper.css";
-    #lunbo{
-        width: 100%;
-    }
-    #lunbo img{
-        width: 100%;
-    }
-</style> -->
+   /*  @import "../../static/swiper.css";
+   #lunbo{
+       width: 100%;
+   }
+   #lunbo img{
+       width: 100%;
+   } */
+</style>

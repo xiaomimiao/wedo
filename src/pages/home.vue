@@ -1,17 +1,26 @@
 <template>
     <div class="home">
 
-        <div class="header">
-
+        <div class="header" :style="scroll >= 294 ? { background: 'rgb(229, 131, 53)'} : { background: 'rgba(0,0,0,0)' }" >
             <img src="../../static/img/logo.png" alt="">
-            <div class="sou" @click="sou()">
+            <div class="sou" @click="sou">
                 <input type="text" value="搜索商品名称">
             </div>
             <span>登录</span>
         </div>
 
         <div class="lunbo">
-            <!-- <swiper :imglist="imglist"></swiper> -->
+            <swiper :options="swiperOption" ref="mySwiper">
+                <!-- slides -->
+                <swiper-slide v-for="item in imglist">
+                    <img :src="item.img_url">
+                </swiper-slide>
+                <!-- Optional controls -->
+                <div class="dian">
+                    <div class="swiper-pagination" slot="pagination"></div>
+                </div>
+            </swiper>
+
         </div>
 
         <div class="zaobao">
@@ -40,10 +49,10 @@
         </ul>
 
         <div class="mingxing">
-            <img :src="data7.img_url" alt="">
+            <img :src="data7.img_url" alt="" @click="xiangqing(data7)">
             <ul>
                 <li>
-                    <dl v-for="key in data9.items">
+                    <dl v-for="key in data9.items" @click="xiangqing(key)">
                         <dd>
                             <img :src="key.img_url" alt="">
                         </dd>
@@ -55,7 +64,7 @@
                     </dl>
                 </li>
                 <li>
-                    <dl v-for="key in data10.items">
+                    <dl v-for="key in data10.items" @click="xiangqing(key)">
                         <dd>
                             <img :src="key.img_url" alt="">
                         </dd>
@@ -67,7 +76,7 @@
                     </dl>
                 </li>
                 <li>
-                    <dl v-for="key in data11.items">
+                    <dl v-for="key in data11.items" @click="xiangqing(key)">
                         <dd>
                             <img :src="key.img_url" alt="">
                         </dd>
@@ -82,14 +91,14 @@
         </div>
 
         <div class="xiaomi">
-            <img :src="data13.img_url" alt="">
+            <img :src="data13.img_url" alt="" @click="xiangqing(data13)">
         </div>
 
         <div class="mingxing">
-            <img :src="data15.img_url" alt="">
+            <img :src="data15.img_url" alt="" @click="xiangqing(data15)">
             <ul>
                 <li>
-                    <dl v-for="key in data17.items">
+                    <dl v-for="key in data17.items" @click="xiangqing(key)">
                         <dd>
                             <img :src="key.img_url" alt="">
                         </dd>
@@ -101,7 +110,7 @@
                     </dl>
                 </li>
                 <li>
-                    <dl v-for="key in data18.items">
+                    <dl v-for="key in data18.items" @click="xiangqing(key)">
                         <dd>
                             <img :src="key.img_url" alt="">
                         </dd>
@@ -113,7 +122,7 @@
                     </dl>
                 </li>
                 <li>
-                    <dl v-for="key in data19.items">
+                    <dl v-for="key in data19.items" @click="xiangqing(key)">
                         <dd>
                             <img :src="key.img_url" alt="">
                         </dd>
@@ -132,12 +141,12 @@
         </div>
 
         <div class="mingxing">
-            <img :src="data23.img_url" alt="">
+            <img :src="data23.img_url" alt="" @click="xiangqing(data23)">
         </div>
 
         <div class="mitu">
             <ul>
-                <li>
+                <li @click="xiangqing(data25)">
                     <img :src="data25.img_url" alt="">
                     <div>
                         <p>{{ data25.product_name }}</p>
@@ -145,7 +154,7 @@
                         <p>￥{{ data25.product_price }}</p>
                     </div>
                 </li>
-                <li>
+                <li @click="xiangqing(data26)">
                     <div>
                         <p>{{ data26.product_name }}</p>
                         <p>{{ data26.product_brief }}</p>
@@ -153,7 +162,7 @@
                     </div>
                     <img :src="data26.img_url" alt="">
                 </li>
-                <li>
+                <li @click="xiangqing(data27)">
                     <img :src="data27.img_url" alt="">
                     <div>
                         <p>{{ data27.product_name }}</p>
@@ -168,36 +177,36 @@
 
         <div class="study">
             <ul>
-                <li v-for="key in data30.items">
+                <li v-for="key in data30.items" @click="xiangqing(key)">
                     <img :src="key.img_url" alt="">
                 </li>
-                <li v-for="key in data32.items">
+                <li v-for="key in data32.items" @click="xiangqing(key)">
                     <img :src="key.img_url" alt="">
                 </li>
-                <li v-for="key in data34.items">
+                <li v-for="key in data34.items" @click="xiangqing(key)">
                     <img :src="key.img_url" alt="">
                 </li>
             </ul>
         </div>
 
         <div class="cai">
-            <img :src="data35.img_url" alt="">
+            <img :src="data35.img_url" alt="" @click="xiangqing(data35)">
         </div>
 
         <div class="mingxing">
             <ul>
                 <li>
-                    <dl>
+                    <dl @click="xiangqing(datab0_1.items[0])">
                         <dd>
-                            <img :src="datab0_1.img_url" alt="">
+                            <img :src="datab0_1.items[0].img_url" alt="">
                         </dd>
                         <div>
-                            <dt>{{ datab0_1.product_name }}</dt>
-                            <dt>{{ datab0_1.product_brief }}</dt>
-                            <dt>￥{{ datab0_1.product_price }}</dt>
+                            <dt>{{ datab0_1.items[0].product_name }}</dt>
+                            <dt>{{ datab0_1.items[0].product_brief }}</dt>
+                            <dt>￥{{ datab0_1.items[0].product_price }}</dt>
                         </div>
                     </dl>
-                    <dl>
+                    <dl @click="xiangqing(datab0_2)">
                         <dd>
                             <img :src="datab0_2.img_url" alt="">
                         </dd>
@@ -209,7 +218,7 @@
                     </dl>
                 </li>
                 <li>
-                    <dl>
+                    <dl @click="xiangqing(datab1_1)">
                         <dd>
                             <img :src="datab1_1.img_url" alt="">
                         </dd>
@@ -219,7 +228,7 @@
                             <dt>￥{{ datab1_1.product_price }}</dt>
                         </div>
                     </dl>
-                    <dl>
+                    <dl @click="xiangqing(datab1_2)">
                         <dd>
                             <img :src="datab1_2.img_url" alt="">
                         </dd>
@@ -231,7 +240,7 @@
                     </dl>
                 </li>
                 <li>
-                    <dl>
+                    <dl @click="xiangqing(datab2_1)">
                         <dd>
                             <img :src="datab2_1.img_url" alt="">
                         </dd>
@@ -241,7 +250,7 @@
                             <dt>￥{{ datab2_1.product_price }}</dt>
                         </div>
                     </dl>
-                    <dl>
+                    <dl @click="xiangqing(datab2_2)">
                         <dd>
                             <img :src="datab2_2.img_url" alt="">
                         </dd>
@@ -254,62 +263,38 @@
                 </li>
             </ul>
         </div>
-
-        <!-- <div class="zhichang">
-            <img :src="datab4.img_url" alt="">
-            <ul>
-                <li>
-                    <dl>
-                        <dd>
-                            <img :src="datab5_1.img_url" alt="">
-                        </dd>
-                        <div>
-                            <dt>{{ datab2_1.product_name }}</dt>
-                            <dt>{{ datab2_1.product_brief }}</dt>
-                            <dt>￥{{ datab2_1.product_price }}</dt>
-                        </div>
-                    </dl>
-                    <dl>
-                        <dd>
-                            <img :src="datab2_2.img_url" alt="">
-                        </dd>
-                        <div>
-                            <dt>{{ datab2_2.product_name }}</dt>
-                            <dt>{{ datab2_2.product_brief }}</dt>
-                            <dt>￥{{ datab2_2.product_price }}</dt>
-                        </div>
-                    </dl>
-                </li>
-            </ul>
-        </div> -->
-
-
 
         <div class="dibu">
             
         </div>
 
-
     </div>
 </template>
 
 <script>
-    /*import Swiper from '../components/swiper'*/
+    import { swiper, swiperSlide } from 'vue-awesome-swiper'
 
     export default {
+
         name: "home",
         data () {
             return{
                 imglist: [],
                 data: [], data3_1: [], data3_2: [], data3_3: [], data5: [], data7: [], data9: [], data10: [], data11: [], data13: [], data15: [], data17: [], data18: [], data19: [], data23: [], data25: [], data26: [], data27: [], data28: [], data30: [], data32: [], data34: [], data35: [],
-                datab0_1: [], datab0_2: [], datab1_1: [], datab1_2: [], datab2_1: [], datab2_2: [], datab4: [], 
+                datab0_1: {items: ['']}, datab0_2: '', datab1_1: [], datab1_2: [], datab2_1: [], datab2_2: [],
+                scroll: '',
+                swiperOption: {
+                    autoplay: 1000,
+                    direction : 'horizontal',
+                    pagination : '.swiper-pagination',
+                }
 
             }
         },
         created () {
             this.axios.get('../../static/xiaomi data/index3.json').then(res => {
                 this.imglist = res.data.data.header.body.items;
-                console.log(this.imglist);
+                // console.log(this.imglist);
                 this.data = res.data.data.sections[0].body;
                 this.data3_1 = res.data.data.sections[3].body.items[0];
                 this.data3_2 = res.data.data.sections[3].body.items[1];
@@ -335,24 +320,45 @@
                 this.data35 = res.data.data.sections[35].body.items[0];
             }),
             this.axios.get('../../static/xiaomi data/index4.json').then(res => {
-                this.datab0_1 = res.data.data.sections[0].body.items[0];
+                // this.datab0_1 = res.data.data.sections[0].body.items[0];
+                this.datab0_1 = res.data.data.sections[0].body;
                 this.datab0_2 = res.data.data.sections[0].body.items[1];
                 this.datab1_1 = res.data.data.sections[1].body.items[0];
                 this.datab1_2 = res.data.data.sections[1].body.items[1];
                 this.datab2_1 = res.data.data.sections[2].body.items[0];
                 this.datab2_2 = res.data.data.sections[2].body.items[1];
-                this.datab4 = res.data.data.sections[4].body.items[0];
             })
         },
         methods: {
-            sou(){
-
+            sou() {
+               this.$router.push({path: '/sou'})
+            },
+            menu(){
+                this.scroll = document.body.scrollTop;
+            },
+            xiangqing (item) {
+                console.log(this)
+                this.$store.commit("ADDOBJ",item)
+                this.$router.push({
+                    path:'/detial'
+                })
             }
         },
+        mounted(){
+            window.addEventListener('scroll', this.menu)
+        },
 
-       /* components: {
-            Swiper
-        }*/
+        components: {
+            swiper, swiperSlide
+        },
+        // 如果你需要得到当前的swiper对象来做一些事情，你可以像下面这样定义一个方法属性来获取当前的swiper对象，同时notNextTick必须为true
+        computed: {
+            swiper() {
+                return this.$refs.mySwiper.swiper
+            }
+        }
+
+
     
     }
 
@@ -369,7 +375,8 @@
             left: 0;
             right: 0;
             height: 0.48rem;
-            background: rgb(229, 131, 53);
+            z-index:2;
+
         }
         .header>img{
             height: 0.18rem;
@@ -405,18 +412,34 @@
 
         .lunbo{
             height: 2.94rem;
-            background: hotpink;
+
+            position: relative;
+
+            img{
+                height: 2.94rem;
+                width: 100%;
+            }
+            .dian{
+                position: absolute;
+                right: 0.1rem;
+                bottom: 0.1rem;
+            }
         }
 
         .zaobao{
             height: 0.43rem;
             margin-top: 0.015rem;
-            background: yellow;
             display: flex;
             margin-bottom: 0.09rem;
+            background: #fff;
             img{
                 height: 0.46rem;
                 width: 0.86rem;
+            }
+            ul{
+                height: 0.43rem;
+                width: 3.28rem;
+                overflow: hidden;
             }
             ul>li{
                 height: 0.16rem;
@@ -607,12 +630,8 @@
             width: 100%;
         }
 
-
-
-
-
         .dibu{
-            height: 3rem;
+            height: 0.52rem;
         }
 
     }

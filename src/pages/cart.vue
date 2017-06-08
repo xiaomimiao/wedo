@@ -32,8 +32,9 @@
 
          })
        }
-    },
-		components:{Car}
+       },
+
+	  components:{Car}
 	})
 </script>
 <style>

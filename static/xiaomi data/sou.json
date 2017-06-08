@@ -1,0 +1,60 @@
+{
+    "code": 0,
+    "result": "ok",
+    "description": "success",
+    "data": {
+        "ad_list": [
+            {
+                "view_type": "cells_auto_fill",
+                "stat": "",
+                "body": {
+                    "line_color": "",
+                    "line_height": "",
+                    "w": 720,
+                    "h": 200,
+                    "title_logo_url": "",
+                    "items": [
+                        {
+                            "img_url": "//i8.mifile.cn/b2c-mimall-media/87a0367dc1904eae4a9a2440b8aec3f9.jpg?bg=F9D2B1",
+                            "img_url_webp": "//i8.mifile.cn/v1/a1/c3bb1bfe-2257-d881-fbac-18ed130c0036.webp?bg=F9D2B1",
+                            "action": {
+                                "type": "url",
+                                "path": "https://service.10046.mi.com/main_home?from=10001&needValidHost=false&defaultTextSize=true",
+                                "log_code": "31wapadsearch-precells_auto_fill001001#rid=eec426cc27c219f75384299c85e0f3d4&t=ad&page=adsearch-pre&act=webview&adp=63&adm=1523"
+                            },
+                            "w": 720,
+                            "h": 200,
+                            "path_type": "image"
+                        }
+                    ]
+                }
+            }
+        ],
+        "keywords": [
+            {
+                "back_n": "#f8f2ec",
+                "border_n": "#fac288",
+                "font_n": "#484848",
+                "word": "红米4X"
+            },
+            {
+                "back_n": "#e8f6f6",
+                "border_n": "#8cdade",
+                "font_n": "#484848",
+                "word": "红米Note 4X"
+            },
+            {
+                "back_n": "#f2f6e9",
+                "border_n": "#bbd090",
+                "font_n": "#484848",
+                "word": "小米Max2"
+            },
+            {
+                "back_n": "#f9eaea",
+                "border_n": "#fca0a7",
+                "font_n": "#484848",
+                "word": "米粉卡"
+            }
+        ]
+    }
+}
