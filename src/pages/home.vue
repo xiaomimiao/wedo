@@ -249,7 +249,7 @@
                             <dt>{{ datab2_1.product_brief }}</dt>
                             <dt>￥{{ datab2_1.product_price }}</dt>
                         </div>
-                    </dl>
+                    </dl> 
                     <dl @click="xiangqing(datab2_2)">
                         <dd>
                             <img :src="datab2_2.img_url" alt="">

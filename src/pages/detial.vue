@@ -5,8 +5,8 @@
     <ul class="tab">
         <li @click="tiao()"><p></p>首页</li>
         <li @click="gou()"><p></p>购物车</li>
-        <li @click="xuan()">加入购物车</li>
-        <li @click="xuan()">立即购买</li>
+        <li @click="xuan(getObj)">加入购物车</li>
+        <li @click="xuan(getObj)">立即购买</li>
     </ul>
   </div>
 </template>
@@ -19,7 +19,7 @@
     data(){
       return {
         // id:this.$router.parmrs.id
-        
+            data:{}
       }
     },
 
@@ -38,6 +38,8 @@
             this.$router.push({
                 path: '/xuanze'
             })
+            
+
         }
 
     },
@@ -52,6 +54,7 @@
         getObj() {
             console.log(this)
             return  this.$store.getters.get
+            this.data = this.$store.getters.get
         }
     }
 
