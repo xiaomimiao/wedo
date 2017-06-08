@@ -1,5 +1,6 @@
 <template>
   <div  id="detial">
+<<<<<<< HEAD
     <img :src="getObj.img_url" :style="{width:'100%'}" alt="">
     <h2 :style="{fontSize:'.3rem', color: '#333', textIndent: '.5rem'}">{{ getObj.product_name }}</h2>
     <ul class="tab">
@@ -8,22 +9,36 @@
         <li @click="xuan(getObj)">加入购物车</li>
         <li @click="xuan(getObj)">立即购买</li>
     </ul>
+=======
+
+        <good-detial></good-detial>
+        <price></price>
+        <publics></publics>
+
+>>>>>>> bb855ef11522786ceaf64a56bfc333df6fdd0db6
   </div>
 </template>
 
 <script>
+import goodDetial from '../components/goodDetial'
+import price from '../components/price'
+import publics from '../components/public'
 
   export default({
     name : 'detial',
 
     data(){
       return {
+<<<<<<< HEAD
         // id:this.$router.parmrs.id
             data:{}
+=======
+        data:[]
+>>>>>>> bb855ef11522786ceaf64a56bfc333df6fdd0db6
       }
     },
-
     methods:{
+<<<<<<< HEAD
         tiao() {
             this.$router.push({
                 path: '/home'
@@ -41,10 +56,13 @@
             
 
         }
+=======
+>>>>>>> bb855ef11522786ceaf64a56bfc333df6fdd0db6
 
     },
 
     created(){
+<<<<<<< HEAD
         // this.axios.get("this.$router.parmrs.id",{}).then( res => {
         //     console.log(res);
         // })
@@ -57,74 +75,16 @@
             this.data = this.$store.getters.get
         }
     }
+=======
+>>>>>>> bb855ef11522786ceaf64a56bfc333df6fdd0db6
 
 
+    },
+    components:{ goodDetial,price,publics }
 
   })
 </script>
 
 <style scoped>
-    .tab{
-        display: flex;
-        width: 100%;
-        position: fixed;
-        bottom:0;
-        height: .55rem;
-        background: #fff;
-        z-index: 20;
-        border-top:1px solid #ccc;
-    }
-    .tab li:nth-of-type(1){
-        font-size: .12rem;
-        width: .84rem;
-        height: .55rem;
-        line-height: .2rem;
-        text-align: center;
-        border-right: 1px solid #ccc;
-        
-    }
-    .tab li:nth-of-type(2){
-        font-size: .12rem;
-        width: .84rem;
-        height: .55rem;
-        line-height: .2rem;
-        text-align: center;
-        border-right: 1px solid #ccc;
-    }
-    .tab li:nth-of-type(1) p{
-        /*display: inline-block;*/
-        overflow: hidden;
-        width: .28rem;
-        height: .28rem;
-        margin-top: .05rem;
-        margin-left: .28rem; 
-        background: url(../../static/img/spr1_5b2e09c.png) no-repeat 0 -1.96rem;
-       background-size:cover;
-    }
-    .tab li:nth-of-type(2) p{
-         width: .28rem;
-        height: .28rem;
-        margin-top: .05rem;
-        margin-left: .28rem; 
-        background: url(../../static/img/spr1_5b2e09c.png) no-repeat 0 -1.4rem;
-       background-size:cover;
-    }
-    .tab li:nth-of-type(3){
-        width: 1.24rem;
-        height: .55rem;
-        line-height: .55rem;
-        color: #fff;
-        font-size: .2rem;
-        background-color: #f90;
-        text-align: center;
-    }
-    .tab li:nth-of-type(4){
-        width: 1.24rem;
-        height: .55rem;
-        line-height: .55rem;
-        color: #fff;
-        font-size: .2rem;
-        background-color: #f95b07;
-        text-align: center;
-    }
+
 </style>
