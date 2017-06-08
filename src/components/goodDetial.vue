@@ -1,7 +1,8 @@
 <template>
   <div  id="detial">
     <img :src="getObj.img_url" :style="{width:'100%'}" alt="">
-    <h2 :style="{fontSize:'.3rem', color: '#333', textIndent: '.5rem'}">{{ getObj.product_name }}</h2>
+    <img :src="getObj.image_url" :style="{width:'100%'}" alt="">
+    <h2 :style="{fontSize:'.2047rem', color: '#333', textIndent: '.5rem',fontWeight:'normal'}">{{ getObj.product_name }}</h2>
     <ul class="tab">
       <li @click="tiao()"><p></p>首页</li>
       <li @click="gou()"><p></p>购物车</li>
@@ -37,7 +38,7 @@
     },
     computed: {
       getObj() {
-        console.log(this)
+        console.log(this);
         return  this.$store.getters.get
       }
     }
