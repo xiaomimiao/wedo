@@ -22,7 +22,6 @@ import sou from '../pages/sou'
 import detial from '../pages/detial'
 import dingdan from '../pages/dingdan'
 import shouhou from '../pages/shouhou'
-
 // 定义路由规则
 const routes = [
     {path: '', component: home},
@@ -35,13 +34,14 @@ const routes = [
     {path: '/sou', component: sou},
     {path: '/detial', component: detial},
     {path: '/dingdan', component: dingdan},
-    {path: '/shouhou', component: shouhou}
+    {path: '/shouhou', component: shouhou},
 ];
 
 
 //导出创建好的router对象
 export default new VueRouter({
-    routes
+    routes,
+    
 })
 
 

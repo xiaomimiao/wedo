@@ -1,50 +1,41 @@
 <template>
-    <div class="cart">
-	      <div class="head">
-	      		<img src="../../static/img/icon_back_n.png" />
-		        <p>购物车</p>
-		        <img src="../../static/img/search.png" />
-	      </div>
-	      <div class="go_guang">
-	  	       <img src="../../static/img/cartnull_0de91f1.png">
-	  	       <p>购物车还是空的</p>
-	  	       <p>去逛逛</p>
-	      </div>
-	      <div class='for_you'>
-	      	   <p>为你推荐</p>
-	      </div>
-	      <div class="list_img">
-	            <ul class='list_img_ul'>
-	                <li v-for='item in data.recom_list'>
-	                   <img :src='item.image_url' :style="{width:'2.04rem',height:'2.04rem'}">
-	                   <div class='price_div'>	
-		                   <p>{{item.name}}</p>
-		                   <p class='price'><span>￥{{item.price}}</span><span>￥{{item.market_price}}</span></p>
-	                   </div>
-	               </li>
-	            </ul>
-	      </div>
-	      <div class='kong'></div>
-    </div>
+	<div>
+	 <div class="head">
+	  		<img src="../../static/img/icon_back_n.png" />
+	        <p >购物车</p>
+	        <img src="../../static/img/search.png" />
+	  </div>
+	  <div class="go_guang">
+	       <img src="../../static/img/cartnull_0de91f1.png">
+	       <p>购物车还是空的</p>
+	       <p @click='shouye(fan)'>去逛逛</p>
+	  </div>
+	<div>
+		<car></car>
+    </div>		
+   </div>	
 </template>
 <script>
-    export default {
-        name: "cart",
-        data(){
+    import Car from '../components/car.vue'
+	export default({
+	    data(){
         	return{
-        		data:[]
+        		data:[],
+        		fan:0
         	}
         },
-        created(){
-        	  this.axios.get('../static/xiaomi data/recommendBlan.json' ).then(res => {
-                // 将获取的数据放在data中
-                this.data = res.data.data;
-                console.log(this.data)
-        })
-    }
-}
-</script>
+       methods:{
+            shouye(item) {
+                this.$router.push({
+		        path: '/home'// 路径
 
+
+         })
+       }
+    },
+		components:{Car}
+	})
+</script>
 <style>
     .head{
     	display: flex;
@@ -102,47 +93,5 @@
     }
 
 
-    .for_you{
-    	width:100%;
-    	height:0.46rem;
-    	font-size: 0.18rem;
-    	line-height:0.46rem;
-    	text-indent:0.2rem;
-    	color:rgba(0,0,0,.87);
-    }
-    .price_div{
-    	width:100%;
-    	height: 0.65rem;
-    	padding-top: 0.1rem;
-    	text-indent: 0.15rem;
-    }
-    .price{
-    	padding-top: 0.1rem;
-    }
-    .price span:first-of-type{
-    	color:#ff6000;
-    	
-    }
-    .price span:last-of-type{
-    	font-size: 0.12rem;
-        text-decoration: line-through;
-        
-    }
-    .list_img{
-    	width:100%;
-    }
-    .list_img_ul{
-    	width:100%;
-    	display: flex;
-    	flex-wrap: wrap;
-    	justify-content: space-around;
-    	font-size: 0.16rem;
-    	
-    }
-    .kong{
-    	width:100%;
-    	height: 1rem;
-    }
 
 </style>
-

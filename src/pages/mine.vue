@@ -5,20 +5,20 @@
            <div class="lp"></div>
             <p>登录/注册</p>
         </div>
-        <div class="ding">
-            <span>全部订单</span>我的订单
+        <div class="ding" @click='ding_dan(push)'>
+             <span >全部订单</span> <i>我的订单</i>
         </div>
         <ul>
-            <li>
+            <li  @click='ding_dan(push)' scopted>
                 <img src="../../static/img/nav-1_f74ca94.png" alt="">
                 <p>待付款</p>
             </li>
-            <li>
+            <li  @click='ding_dan(push)' scopted>
                  <img src="../../static/img/nav-2_a05a641.png" alt="">
                 <p>待收货</p>
             </li>
-            <li>
-                <img src="../../static/img/nav-4_42676a4.png" alt="">
+            <li  @click='shou_hou(xiu)'>
+                <img src="../../static/img/nav-4_42676a4.png" alt=""  >
                 <p>退换修</p>
             </li>
         </ul>
@@ -43,9 +43,28 @@
 <script>
     export default {
         name: "mine",
+        data(){
+        	return{
+        	 push:0,
+        	 xiu:0
+        	 
+        	}
+        },
+        methods:{
+            ding_dan(item) {
+                this.$router.push({
+		        path: '/dingdan'// 路径
 
+
+            })
+       },
+           shou_hou(tem){
+           	    this.$router.push({
+           	     path:'/shouhou/' 	
+           	    })
+       }
     }
-
+}
 </script>
 
 <style>
@@ -68,7 +87,7 @@
         top: -0.5rem;
         left: 0;
     }
-   .mine .lp{
+    .mine .lp{
         display: inline-block;
         width: .56rem;
         height: .56rem;
@@ -81,12 +100,16 @@
     .mine .ding{
         color: rgba(0,0,0,.87);
         width: 100%;
-        height: .47rem;
+        height: 0.47rem;
         background: #fff;
         font-size: .16rem;
         line-height: .47rem;
         text-indent: .2rem;
         position: relative;
+        overflow: hidden;
+    }
+    .mine .ding  i{
+    	font-style:normal;
     }
     .mine .ding span{
         position: absolute;
@@ -107,7 +130,9 @@
         justify-content:space-around;
         align-items:center;
         background: #fff;
+         overflow: hidden;
     }
+    
     .mine li{
         flex:1;
         text-align: center;
