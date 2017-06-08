@@ -16,7 +16,9 @@
                     <img :src="item.img_url">
                 </swiper-slide>
                 <!-- Optional controls -->
-                <div class="swiper-pagination" slot="pagination"></div>
+                <div class="dian">
+                    <div class="swiper-pagination" slot="pagination"></div>
+                </div>
             </swiper>
 
         </div>
@@ -47,10 +49,10 @@
         </ul>
 
         <div class="mingxing">
-            <img :src="data7.img_url" alt="">
+            <img :src="data7.img_url" alt="" @click="xiangqing(data7)">
             <ul>
                 <li>
-                    <dl v-for="key in data9.items">
+                    <dl v-for="key in data9.items" @click="xiangqing(key)">
                         <dd>
                             <img :src="key.img_url" alt="">
                         </dd>
@@ -62,7 +64,7 @@
                     </dl>
                 </li>
                 <li>
-                    <dl v-for="key in data10.items">
+                    <dl v-for="key in data10.items" @click="xiangqing(key)">
                         <dd>
                             <img :src="key.img_url" alt="">
                         </dd>
@@ -74,7 +76,7 @@
                     </dl>
                 </li>
                 <li>
-                    <dl v-for="key in data11.items">
+                    <dl v-for="key in data11.items" @click="xiangqing(key)">
                         <dd>
                             <img :src="key.img_url" alt="">
                         </dd>
@@ -89,14 +91,14 @@
         </div>
 
         <div class="xiaomi">
-            <img :src="data13.img_url" alt="">
+            <img :src="data13.img_url" alt="" @click="xiangqing(data13)">
         </div>
 
         <div class="mingxing">
-            <img :src="data15.img_url" alt="">
+            <img :src="data15.img_url" alt="" @click="xiangqing(data15)">
             <ul>
                 <li>
-                    <dl v-for="key in data17.items">
+                    <dl v-for="key in data17.items" @click="xiangqing(key)">
                         <dd>
                             <img :src="key.img_url" alt="">
                         </dd>
@@ -108,7 +110,7 @@
                     </dl>
                 </li>
                 <li>
-                    <dl v-for="key in data18.items">
+                    <dl v-for="key in data18.items" @click="xiangqing(key)">
                         <dd>
                             <img :src="key.img_url" alt="">
                         </dd>
@@ -120,7 +122,7 @@
                     </dl>
                 </li>
                 <li>
-                    <dl v-for="key in data19.items">
+                    <dl v-for="key in data19.items" @click="xiangqing(key)">
                         <dd>
                             <img :src="key.img_url" alt="">
                         </dd>
@@ -139,12 +141,12 @@
         </div>
 
         <div class="mingxing">
-            <img :src="data23.img_url" alt="">
+            <img :src="data23.img_url" alt="" @click="xiangqing(data23)">
         </div>
 
         <div class="mitu">
             <ul>
-                <li>
+                <li @click="xiangqing(data25)">
                     <img :src="data25.img_url" alt="">
                     <div>
                         <p>{{ data25.product_name }}</p>
@@ -152,7 +154,7 @@
                         <p>￥{{ data25.product_price }}</p>
                     </div>
                 </li>
-                <li>
+                <li @click="xiangqing(data26)">
                     <div>
                         <p>{{ data26.product_name }}</p>
                         <p>{{ data26.product_brief }}</p>
@@ -160,7 +162,7 @@
                     </div>
                     <img :src="data26.img_url" alt="">
                 </li>
-                <li>
+                <li @click="xiangqing(data27)">
                     <img :src="data27.img_url" alt="">
                     <div>
                         <p>{{ data27.product_name }}</p>
@@ -175,26 +177,26 @@
 
         <div class="study">
             <ul>
-                <li v-for="key in data30.items">
+                <li v-for="key in data30.items" @click="xiangqing(key)">
                     <img :src="key.img_url" alt="">
                 </li>
-                <li v-for="key in data32.items">
+                <li v-for="key in data32.items" @click="xiangqing(key)">
                     <img :src="key.img_url" alt="">
                 </li>
-                <li v-for="key in data34.items">
+                <li v-for="key in data34.items" @click="xiangqing(key)">
                     <img :src="key.img_url" alt="">
                 </li>
             </ul>
         </div>
 
         <div class="cai">
-            <img :src="data35.img_url" alt="">
+            <img :src="data35.img_url" alt="" @click="xiangqing(data35)">
         </div>
 
         <div class="mingxing">
             <ul>
                 <li>
-                    <dl>
+                    <dl @click="xiangqing(datab0_1.items[0])">
                         <dd>
                             <img :src="datab0_1.items[0].img_url" alt="">
                         </dd>
@@ -204,7 +206,7 @@
                             <dt>￥{{ datab0_1.items[0].product_price }}</dt>
                         </div>
                     </dl>
-                    <dl>
+                    <dl @click="xiangqing(datab0_2)">
                         <dd>
                             <img :src="datab0_2.img_url" alt="">
                         </dd>
@@ -216,7 +218,7 @@
                     </dl>
                 </li>
                 <li>
-                    <dl>
+                    <dl @click="xiangqing(datab1_1)">
                         <dd>
                             <img :src="datab1_1.img_url" alt="">
                         </dd>
@@ -226,7 +228,7 @@
                             <dt>￥{{ datab1_1.product_price }}</dt>
                         </div>
                     </dl>
-                    <dl>
+                    <dl @click="xiangqing(datab1_2)">
                         <dd>
                             <img :src="datab1_2.img_url" alt="">
                         </dd>
@@ -238,7 +240,7 @@
                     </dl>
                 </li>
                 <li>
-                    <dl>
+                    <dl @click="xiangqing(datab2_1)">
                         <dd>
                             <img :src="datab2_1.img_url" alt="">
                         </dd>
@@ -248,7 +250,7 @@
                             <dt>￥{{ datab2_1.product_price }}</dt>
                         </div>
                     </dl>
-                    <dl>
+                    <dl @click="xiangqing(datab2_2)">
                         <dd>
                             <img :src="datab2_2.img_url" alt="">
                         </dd>
@@ -333,6 +335,13 @@
             },
             menu(){
                 this.scroll = document.body.scrollTop;
+            },
+            xiangqing (item) {
+                console.log(this)
+                this.$store.commit("ADDOBJ",item)
+                this.$router.push({
+                    path:'/detial'
+                })
             }
         },
         mounted(){
@@ -367,6 +376,7 @@
             right: 0;
             height: 0.48rem;
             z-index:2;
+
         }
         .header>img{
             height: 0.18rem;
@@ -402,22 +412,34 @@
 
         .lunbo{
             height: 2.94rem;
-            
+
+            position: relative;
+
             img{
                 height: 2.94rem;
                 width: 100%;
+            }
+            .dian{
+                position: absolute;
+                right: 0.1rem;
+                bottom: 0.1rem;
             }
         }
 
         .zaobao{
             height: 0.43rem;
             margin-top: 0.015rem;
-            background: yellow;
             display: flex;
             margin-bottom: 0.09rem;
+            background: #fff;
             img{
                 height: 0.46rem;
                 width: 0.86rem;
+            }
+            ul{
+                height: 0.43rem;
+                width: 3.28rem;
+                overflow: hidden;
             }
             ul>li{
                 height: 0.16rem;
