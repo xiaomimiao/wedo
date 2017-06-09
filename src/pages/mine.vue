@@ -1,7 +1,7 @@
 <template>
     <div class="mine">
         <div class="top">
-         
+
            <div class="lp"></div>
             <p>登录/注册</p>
         </div>
@@ -26,7 +26,7 @@
             我的优惠
             <img src="../../static/img/arrow_3c64abd.png" alt="">
         </div>
-        <div class="menu fuwu">
+        <div class="menu fuwu"  @click="mine_service">
             服务中心
             <img src="../../static/img/arrow_3c64abd.png" alt="">
         </div>
@@ -47,7 +47,7 @@
         	return{
         	 push:0,
         	 xiu:0
-        	 
+
         	}
         },
         methods:{
@@ -60,9 +60,12 @@
        },
            shou_hou(tem){
            	    this.$router.push({
-           	     path:'/shouhou/' 	
+           	     path:'/shouhou/'
            	    })
-       }
+       },
+          mine_service(){
+            this.$router.push('/service')
+          }
     }
 }
 </script>
@@ -77,7 +80,7 @@
        width: 100%;
        height: .92rem;
        background: url(../../static/img/bg_0425a88.png) no-repeat #f37d0f;
-       background-size:cover; 
+       background-size:cover;
     }
     .mine .top p{
         font-size: .14rem;
@@ -92,7 +95,7 @@
         width: .56rem;
         height: .56rem;
         background:#f37d0f url(../../static/img/avatar_e29d6cb.png) no-repeat ;
-        background-size:100%; 
+        background-size:100%;
         position: relative;
         top: -0.3rem;
         left: .16rem;
@@ -121,7 +124,7 @@
         font-size: .14rem;
         color: rgba(0,0,0,.54);
         background: url(../../static/img/arrow_3c64abd.png) no-repeat right center;
-        background-size:10%; 
+        background-size:10%;
         text-indent: 0;
     }
     .mine ul{
@@ -132,7 +135,7 @@
         background: #fff;
          overflow: hidden;
     }
-    
+
     .mine li{
         flex:1;
         text-align: center;
@@ -159,8 +162,8 @@
 
         background: url(../../static/img/i-wallet_13a8fda.png) .15rem .1rem no-repeat;
         font-size: .16rem;
-        background-color:#fff; 
-        background-size:7%; 
+        background-color:#fff;
+        background-size:7%;
         text-indent: .7rem;
         position: relative;
     }
@@ -184,7 +187,7 @@
     .mine .set{
         margin-top: .08rem;
         background: url(../../static/img/i-setting_4ddebe5.png) no-repeat .15rem .1rem #fff;
-        background-size:7%; 
+        background-size:7%;
     }
     .mine .fuwu{
         background: url(../../static/img/i-service_7b9f412.png) no-repeat .15rem .1rem #fff;

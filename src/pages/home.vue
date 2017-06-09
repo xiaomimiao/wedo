@@ -249,7 +249,7 @@
                             <dt>{{ datab2_1.product_brief }}</dt>
                             <dt>￥{{ datab2_1.product_price }}</dt>
                         </div>
-                    </dl>
+                    </dl> 
                     <dl @click="xiangqing(datab2_2)">
                         <dd>
                             <img :src="datab2_2.img_url" alt="">
@@ -262,6 +262,11 @@
                     </dl>
                 </li>
             </ul>
+        </div>
+
+        <div class="guanggao" ref="abc">
+            <img src="../../static/img/baf392bb0c5c9d3c25f60f5fe04f0705.png" alt="">
+            <span @click="closegg()"></span>
         </div>
 
         <div class="dibu">
@@ -342,6 +347,9 @@
                 this.$router.push({
                     path:'/detial'
                 })
+            },
+            closegg(){
+                this.$refs.abc.style.display = 'none';
             }
         },
         mounted(){
@@ -628,6 +636,30 @@
             display: block;
             height: 0.46rem;
             width: 100%;
+        }
+
+        .guanggao{
+            height: 1.088rem;
+            width: 100%;
+            position: fixed;
+            left: 0;
+            right: 0;
+            bottom: 0.52rem;
+            z-index: 2;
+            img{
+                height: 1.088rem;
+                width: 100%;
+            }
+            span{
+                display: block;
+                height: 1.088rem;
+                width: 0.27rem;
+                position: absolute;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                z-index: 3;
+            }
         }
 
         .dibu{

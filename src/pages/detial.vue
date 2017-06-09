@@ -5,31 +5,46 @@
         <price></price>
         <publics></publics>
 
+
   </div>
 </template>
 
 <script>
+
 import goodDetial from '../components/goodDetial'
 import price from '../components/price'
 import publics from '../components/public'
 
   export default({
-    name : 'detial',
 
-    data(){
-      return {
-        data:[]
-      }
-    },
-    methods:{
+        name : 'detial',
+        data(){
+            return {
+                data:[],
+                data:{}
+            }
+        },
+        methods:{
+            tiao() {
+                this.$router.push({
+                    path: '/home'
+                })
+            },
+            gou() {
+                this.$router.push({
+                    path: '/cart'
+                })
+            }
+        },
 
-    },
+        computed: {
+            getObj() {
+                console.log(this);
+                return  this.$store.getters.get
 
-    created(){
-
-
-    },
-    components:{ goodDetial,price,publics }
+            }
+        },
+        components: { goodDetial,price,publics }
 
   })
 </script>

@@ -67,7 +67,7 @@ new Vue({
 
 })
 
-
+const bus = new Vue()
 /*Vue.prototype.detial = function(item){
     console.log(this);
     this.$store.commit("ADDOBJ",item)
