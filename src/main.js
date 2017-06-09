@@ -36,7 +36,8 @@ Vue.config.productionTip = false
 
 const store = new Vuex.Store({
     state: {
-        obj:{}
+        obj:{},
+        
     },
     mutations: {
         ADDOBJ (state, item) {
