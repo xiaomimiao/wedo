@@ -4,6 +4,7 @@
         <good-detial></good-detial>
         <price></price>
         <publics></publics>
+       
 
   </div>
 </template>
