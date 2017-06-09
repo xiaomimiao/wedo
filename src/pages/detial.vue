@@ -1,46 +1,50 @@
 <template>
   <div  id="detial">
 
-    <!--<img :src="getObj.img_url" :style="{width:'100%'}" alt="">-->
-    <!--<h2 :style="{fontSize:'.3rem', color: '#333', textIndent: '.5rem'}">{{ getObj.product_name }}</h2>-->
-    <!--<ul class="tab">-->
-        <!--<li @click="tiao()"><p></p>首页</li>-->
-        <!--<li @click="gou()"><p></p>购物车</li>-->
-        <!--<li @click="xuan(getObj)">加入购物车</li>-->
-        <!--<li @click="xuan(getObj)">立即购买</li>-->
-    <!--</ul>-->
-
-
         <good-detial></good-detial>
         <price></price>
         <publics></publics>
+
 
   </div>
 </template>
 
 <script>
+
 import goodDetial from '../components/goodDetial'
 import price from '../components/price'
 import publics from '../components/public'
 
   export default({
-    name : 'detial',
 
-    data(){
-      return {
-        // id:this.$router.parmrs.id
-            data:{}
-      }
-    },
+        name : 'detial',
+        data(){
+            return {
+                data:[],
+                data:{}
+            }
+        },
+        methods:{
+            tiao() {
+                this.$router.push({
+                    path: '/home'
+                })
+            },
+            gou() {
+                this.$router.push({
+                    path: '/cart'
+                })
+            }
+        },
 
-    computed: {
-        getObj() {
-            console.log(this)
-            return  this.$store.getters.get
-            this.data = this.$store.getters.get
-        }
-    },
-    components:{ goodDetial,price,publics }
+        computed: {
+            getObj() {
+                console.log(this);
+                return  this.$store.getters.get
+
+            }
+        },
+        components: { goodDetial,price,publics }
 
   })
 </script>

@@ -5,8 +5,8 @@
 	      </div>
 	      <div class="list_img">
 	            <ul class='list_img_ul'>
-	                <li v-for='item in data.recom_list'>
-	                   <img :src='item.image_url' :style="{width:'2.04rem',height:'2.04rem'}" @click='xiangqing(item)'>
+	                <li v-for='item in data.recom_list'  @click='xiangqing(item)'>
+	                   <img :src='item.image_url' :style="{width:'2.04rem',height:'2.04rem'}">
 	                   <div class='price_div'>	
 		                   <p>{{item.name}}</p>
 		                   <p class='price'><span>￥{{item.price}}</span><span>￥{{item.market_price}}</span></p>
@@ -23,13 +23,14 @@
         data(){
         	return{
         		data:[],
-        		item:0
+        
         	}
         },
         methods:{
-        xiangqing (item) {
-          console.log(this)
-          this.$store.commit("ADDOBJ",item)
+        xiangqing (ite) {
+//        console.log(this)
+//        console.log(ite)
+          this.$store.commit("ADDOBJ",ite)
           this.$router.push({
             path:'/detial'
           })
@@ -40,12 +41,15 @@
         	  this.axios.get('../static/xiaomi data/recommendBlan.json' ).then(res => {
                 // 将获取的数据放在data中
                 this.data = res.data.data;
-                console.log(this.data)
+//              console.log(this.data)
         })
     }
+//  computed:{
+//  	getObj(){
+//  }
 }
 </script>
-<style>
+<style scoped="scoped">
 
 
     .for_you{
