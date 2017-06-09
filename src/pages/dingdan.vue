@@ -5,11 +5,11 @@
 		     	 <p>我的订单</p>
 		     	 <img src="../../static/img/search.png" @click='serch(hot)'/>
 		    </div>
-		    <div class='allShop'> 
+		    <div class='allShop'>
 		         <img src="../../static/img/empty.png" :style="{width:'1.2rem',height:'1.2rem'}"/>
-		         <p><span @click='car(ha)'>全部商品</span><span>精选商品</span></p>
+		         <p><span @click='car(ha)'>全部商品</span><span  @click="shoping()">精选商品</span></p>
 		    </div>
-   </div>    
+   </div>
 </template>
 <script>
     export default {
@@ -35,9 +35,12 @@
         	this.$router.push({
         	  path:'/search'
         	})
-        }
-    	
-   
+        },
+          shoping(){
+            this.$router.push('/shopping')
+          }
+
+
   }
 }
   </script>
@@ -70,21 +73,21 @@
     .allShop{
     	width:100%;
     	height:3.32rem;
-    	
-    	
-    	
+
+
+
    }
     .allShop img{
     	margin-left:35%;
     	margin-top: 27%;
-    }	
+    }
     .allShop p{
     	display: flex;
     	font-size: 0.18rem;
     	text-align: center;
     	margin-left:12%;
     	margin-top: 27%;
-    	
+
     }
     .allShop p span:first-of-type{
         display: block;
@@ -93,7 +96,7 @@
         color: #999;
         background:#f4f4f4;
         line-height:0.59rem ;
-     
+
     }
     .allShop p span:last-of-type{
         display: block;
@@ -102,6 +105,6 @@
         color: white;
         background:#FF5722;
         line-height:0.59rem ;
-     
+
     }
 </style>

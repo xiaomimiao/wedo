@@ -1,18 +1,15 @@
 <template>
   <div  id="detial">
-<<<<<<< HEAD
+
     <img :src="getObj.img_url" :style="{width:'100%'}" alt=""   alt="" v-if="getObj.img_url?true:false">
     <img :src="getObj.image_url" :style="{width:'100%'}" alt="" v-if="getObj.image_url?true:false">
-=======
-    <img :src="getObj.img_url" :style="{width:'100%'}" alt="" v-if='getObj.img_url?true:false'>
-    <img :src="getObj.image_url" :style="{width:'100%'}" alt="">
->>>>>>> 7033a9be8e2a1f89a6affa8c6fa543eae2925bc5
+
     <h2 :style="{fontSize:'.2047rem', color: '#333', textIndent: '.5rem',fontWeight:'normal'}">{{ getObj.product_name }}</h2>
     <ul class="tab">
       <li @click="tiao()"><p></p>首页</li>
       <li @click="gou()"><p></p>购物车</li>
-      <li>加入购物车</li>
-      <li>立即购买</li>
+      <li @click="xuan()">加入购物车</li>
+      <li @click="xuan()">立即购买</li>
     </ul>
   </div>
 </template>
@@ -37,6 +34,11 @@
       gou() {
         this.$router.push({
           path: '/cart'
+        })
+      },
+      xuan() {
+        this.$router.push({
+          path: '/xuanze'
         })
       }
 
