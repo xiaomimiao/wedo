@@ -9,9 +9,16 @@
         <li @click="xuan(getObj)">立即购买</li>
     </ul>
 
+<<<<<<< HEAD
     <good-detial></good-detial>
     <price></price>
     <publics></publics>
+=======
+        <good-detial></good-detial>
+        <price></price>
+        <publics></publics>
+       
+>>>>>>> 3d17f30ad6e38d53330324e38a611e99294d51a7
 
   </div>
 </template>
