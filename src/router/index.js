@@ -27,6 +27,7 @@ import xuanze from '../pages/xuanze'
 
 import list from '../pages/list'
 import carwd from '../pages/carwd'
+import service from '../components/service'
 
 // 定义路由规则
 const routes = [
@@ -45,7 +46,8 @@ const routes = [
 
     {path: '/detial1', component: detial1},
     {path: '/list', component: list},
-    {path: '/carwd', component: carwd}
+    {path: '/carwd', component: carwd},
+    {path:'/service',component:service}
 
 ];
 
@@ -53,7 +55,7 @@ const routes = [
 //导出创建好的router对象
 export default new VueRouter({
     routes,
-    
+
 })
 
 

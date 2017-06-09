@@ -1,7 +1,7 @@
 <template>
   <div  id="detial">
-    <img :src="getObj.img_url" :style="{width:'100%'}" alt="">
-    <img :src="getObj.image_url" :style="{width:'100%'}" alt="">
+    <img :src="getObj.img_url" :style="{width:'100%'}" alt=""   alt="" v-if="getObj.img_url?true:false">
+    <img :src="getObj.image_url" :style="{width:'100%'}" alt="" v-if="getObj.image_url?true:false">
     <h2 :style="{fontSize:'.2047rem', color: '#333', textIndent: '.5rem',fontWeight:'normal'}">{{ getObj.product_name }}</h2>
     <ul class="tab">
       <li @click="tiao()"><p></p>首页</li>

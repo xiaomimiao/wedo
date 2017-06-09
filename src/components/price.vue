@@ -2,9 +2,7 @@
    <div  class="price">
      <p  :style="{fontSize:'0.15rem'}"><span>【亮黑色版6月9日早10点预售，预计2~4周内为您发货】</span>{{ data1 }}</p>
      <div  class="price_list"    v-for="item in data.list">
-
           <h2 >￥{{ item.price }}</h2>
-
      </div>
    </div>
 </template>
