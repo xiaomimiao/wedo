@@ -52,16 +52,10 @@
 <script>
     export default({
         name : 'ss',
-        data(){
-          return {
-            data:'',
-
-          }
-        },
         methods:{
             gou() {
                 this.$router.push({
-                    path: '/cart'
+                    path: '/detial'
                 })
             },
             guan() {
