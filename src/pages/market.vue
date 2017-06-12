@@ -8,14 +8,14 @@
       <div class="market_left" :style="{clear: 'both'}">
           <ul>
 
-              <li  v-for="(item,index) in data.data"  @click="change_list(item.category_id)" :style="i == item.category_id ? { color: '#fb7d34',fontSize:'0.2rem' } : { color: '#333',fontSize:'0.1562rem' }"  >{{ item.category_name }}</li>
+              <li  v-for="(item,index) in data.data"  @click="change_list(index)" :style="i == index ? { color: '#fb7d34',fontSize:'0.2rem' } : { color: '#333',fontSize:'0.1562rem' }"  >{{ item.category_name }}</li>
 
           </ul>
       </div>
 
-    <div  class="market_right">
+    <div  class="market_right"  >
 
-      <div  v-for="(item,index) in data.data">
+      <div  v-for="(item,index) in data.data" class="market_div">
 
         <div  v-for="(market_item,inde) in data.data[index].category_list"    >
 
@@ -70,9 +70,12 @@
       }
     },
     methods:{
+
        change_list(a){
 
          this.i = a;
+       $('.market_right').scrollTop($(".market_div")[a].offsetTop-40);
+//         console.log($(".market_div")[a]);
        },
        xiangqing (item) {
           console.log(this)
@@ -93,8 +96,24 @@
         this.axios.get('../static/xiaomi data/category_v2.json').then(res =>{
           this.data = res.data
         })
+    },
+    market_nav(){
+      // 遍历左侧所有logo的数据图片
+      for(let i=0;i<$(".market_div").length;i++){
+        //切换样式
+        $(".market_left li")[i].style.color="#666";
+        if(//判断 滚动条和元素实际位置的区间来进行锁定区域
+            $(".market_right").scrollTop()>=$(".market_div")[i].offsetTop &&
+            $(".market_right").scrollTop()<$(".market_div")[i+1].offsetTop
+        ){
+          // 赋予符合条件的元素的样式
+          $('.market_left li')[i].style.color="#fb7d34";
+        }
+      }
+    },
+    mounted(){  //页面渲染完成后，监听滚动条scroll事件，执行对应的函数
+      $('.market_right').scroll(this.market_nav);
     }
-
   }
 
 </script>
