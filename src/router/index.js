@@ -24,7 +24,6 @@ import detial1 from '../pages/detial1'
 import dingdan from '../pages/dingdan'
 import shouhou from '../pages/shouhou'
 import xuanze from '../pages/xuanze'
-
 import list from '../pages/list'
 import carwd from '../pages/carwd'
 import service from '../components/service'
@@ -50,6 +49,7 @@ const routes = [
     {path: '/carwd', component: carwd},
     {path:'/service',component:service},
     {path:'/shopping',component:shopping}
+   
 
 ];
 

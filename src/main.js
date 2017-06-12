@@ -36,18 +36,37 @@ Vue.config.productionTip = false
 
 const store = new Vuex.Store({
     state: {
-        obj:{}
+        obj:{},
+        price:0,
+        count:1
     },
     mutations: {
         ADDOBJ (state, item) {
             console.log(123);
             state.obj = item
-        }
+        },
+        ADD_PRICE(state,count){
+
+		state.count++;
+		var flag=true;
+
+		
+	    },
+        DOWN_PRICE(state,count){
+
+//			state.price -= count;
+			if(state.count>1){
+				state.count--
+			}
+				
+	    }
     },
     getters:{
         get(state){
-            console.log("456");
+//          console.log(state.count);
             return state.obj;
+
+            
         }
     },
     actions:{
