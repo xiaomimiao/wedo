@@ -1,43 +1,74 @@
 <template>
-	<div>
-	 <div class="head">
-	  		<img src="../../static/img/icon_back_n.png" />
-	        <p >购物车</p>
-	        <img src="../../static/img/search.png" />
-	  </div>
-	  <div class="go_guang">
-	       <img src="../../static/img/cartnull_0de91f1.png">
-	       <p>购物车还是空的</p>
-	       <p @click='shouye(fan)'>去逛逛</p>
-	  </div>
-	<div>
-		<car></car>
-    </div>		
-   </div>	
+  <div>
+	 <div ref='hiden'>
+			  <div class="head">
+			  		<img src="../../static/img/icon_back_n.png" />
+			        <p>购物车</p>
+			        <img src="../../static/img/search.png" />
+			  </div>
+			  <div class="go_guang">
+			       <img src="../../static/img/cartnull_0de91f1.png">
+			       <p>购物车还是空的</p>
+			       <p @click='shouye(fan)'>去逛逛</p>
+			  </div>
+			<div>
+				<car></car>
+		   </div>
+   </div> 
+	<div v-show='isA' class="wu">
+		         <wu></wu>
+		         <p @click='delet()'>删除</p>
+	 </div>
+</div>	
 </template>
 <script>
     import Car from '../components/car.vue'
+    import Wu from '../components/wupin.vue'
 	export default({
 	    data(){
         	return{
         		data:[],
-        		fan:0
+        		fan:0,
+        		isA:true,
+        		flag:true
         	}
         },
        methods:{
             shouye(item) {
                 this.$router.push({
 		        path: '/home'// 路径
-
+						
 
          })
+       },
+       delet() {
+              this.isA=!this.isA;
+
        }
        },
+      
+	  components:{Car,Wu},
+	  computed: {
+            getObj() {
+//              console.log(this.$store.getters.get)
+                return  this.$store.getters.get
 
-	  components:{Car}
+            }
+        }
 	})
 </script>
 <style>
+     .wu{
+     	position:absolute;
+     	left:0;
+     	right:0;
+     	top:0;
+     	bottom:0;
+     	width:100%;
+     	height:100%;
+     	background:white;
+     	z-index:33
+     }
     .head{
     	display: flex;
     	height:0.48rem;
@@ -92,6 +123,9 @@
     	margin-left: 0.1rem;
 
     }
+    
+    
+    
 
 
 

@@ -3,11 +3,10 @@
         <div class="ze">
 
             <div class="hongmi">
-                <!-- <img src="../../static/img/avatar_e29d6cb.png" alt=""> -->
-                <img src="../../static/img/avatar_e29d6cb.png" alt="">
+                 <img :src="getObj.img_url || getObj.image_url" alt="">
                 <div class="jshao">
-                    <p>￥<span>1099</span></p>
-                    <p>红米node</p>
+                    <p>￥<span>{{ getObj.product_price || getObj.market_price || 3499 }}</span></p>
+                    <p>{{ getObj.product_name ||  getObj.name}}</p>
                 </div>
             </div>
 
@@ -29,9 +28,9 @@
                 <div class="shu yanse">
                     <p>购买数量</p>
                     <div class="gou">
-                        <span><img src="../../static/img/jian.png" alt=""></span>
-                        <span>1</span>
-                        <span><img src="../../static/img/add.png" alt=""></span>
+                        <span @click='redueOne()'><img src="../../static/img/jian.png" alt="" ></span>
+                        <span>{{this.$store.state.count}}</span>
+                        <span @click='addOne()'><img src="../../static/img/add.png" alt=""></span>
                     </div>
                 </div>
                 <div class="baoxian yanse">
@@ -56,7 +55,7 @@
         data(){
           return {
             data:'',
-            
+
           }
         },
         methods:{
@@ -69,12 +68,26 @@
                  this.$router.push({
                     path: '/detial'
                 })
+            },
+            addOne(){
+            	 this.$store.commit({
+            	 	type:'ADD_PRICE',
+            	 	
+            	 })
+            	
+            	
+            },
+            redueOne(){
+            	 this.$store.commit({
+            	 	type:'DOWN_PRICE',
+            	 })
+            	
             }
 
         },
         computed: {
             getObj() {
-                console.log(this)
+                console.log(this.$store.state.count)
                 return  this.$store.getters.get
             }
         }
@@ -96,7 +109,7 @@
             height: 4.66rem;
             background: #fff;
             border-top: 1px solid #f4f4f4;
-            padding: 0.5rem 0.2rem; 
+            padding: 0.5rem 0.2rem;
             position: absolute;
             left: 0;
             right: 0;
@@ -240,7 +253,7 @@
                 color: #fff;
                 font-size: 0.18rem;
                 position: absolute;
-                bottom: 0; 
+                bottom: 0;
                 left: 0;
                 right: 0;
             }
@@ -249,7 +262,7 @@
             .guan{
                 height: 0.23rem;
                 width: 0.23rem;
-                display: block; 
+                display: block;
                 position:absolute;
                 top: 0.15rem;
                 right: 0.15rem;

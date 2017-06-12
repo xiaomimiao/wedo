@@ -7,8 +7,8 @@
     <ul class="tab">
       <li @click="tiao()"><p></p>首页</li>
       <li @click="gou()"><p></p>购物车</li>
-      <li>加入购物车</li>
-      <li>立即购买</li>
+      <li @click="xuan()">加入购物车</li>
+      <li @click="xuan()">立即购买</li>
     </ul>
   </div>
 </template>
@@ -33,6 +33,11 @@
       gou() {
         this.$router.push({
           path: '/cart'
+        })
+      },
+      xuan() {
+        this.$router.push({
+          path: '/xuanze'
         })
       }
 

@@ -3,13 +3,13 @@
 
         <div class="header" :style="scroll >= 294 ? { background: 'rgb(229, 131, 53)'} : { background: 'rgba(0,0,0,0)' }" >
             <img src="../../static/img/logo.png" alt="">
-            <div class="sou" @click="sou">
+            <div class="sou" @click="sou()">
                 <input type="text" value="搜索商品名称">
             </div>
             <span>登录</span>
         </div>
 
-        <div class="lunbo">
+        <div class="lunbo" @click="tupian()">
             <swiper :options="swiperOption" ref="mySwiper">
                 <!-- slides -->
                 <swiper-slide v-for="item in imglist">
@@ -33,18 +33,18 @@
         <div class="zuigao">
             <ul>
                 <li>
-                    <img :src="data3_1.img_url" alt="" style="">
+                    <img :src="data3_1.img_url" alt="" style=""  @click="tupian()">
                 </li>
                 <li>
-                    <img :src="data3_2.img_url" alt="">
-                    <img :src="data3_3.img_url" alt="">
+                    <img :src="data3_2.img_url" alt=""  @click="tupian()">
+                    <img :src="data3_3.img_url" alt=""  @click="tupian()">
                 </li>
             </ul>
         </div>
 
-        <ul class="lijian">
+        <ul class="lijian" @click="tupian()">
             <li>
-                <img :src="data5.img_url_webp" alt="">
+                <img :src="data5.img_url_webp" alt="" >
             </li>
         </ul>
 
@@ -136,7 +136,7 @@
             </ul>
         </div>
 
-        <div class="more">
+        <div class="more" @click="tupian()">
             更多新品 >
         </div>
 
@@ -249,7 +249,7 @@
                             <dt>{{ datab2_1.product_brief }}</dt>
                             <dt>￥{{ datab2_1.product_price }}</dt>
                         </div>
-                    </dl> 
+                    </dl>
                     <dl @click="xiangqing(datab2_2)">
                         <dd>
                             <img :src="datab2_2.img_url" alt="">
@@ -270,7 +270,7 @@
         </div>
 
         <div class="dibu">
-            
+
         </div>
 
     </div>
@@ -350,6 +350,11 @@
             },
             closegg(){
                 this.$refs.abc.style.display = 'none';
+            },
+            tupian() {
+              this.$router.push({
+                path: '/list'
+              })
             }
         },
         mounted(){
@@ -367,7 +372,7 @@
         }
 
 
-    
+
     }
 
 </script>
@@ -523,7 +528,7 @@
                     dt{
                         white-space: nowrap;
                         overflow: hidden;
-                        text-overflow: ellipsis; 
+                        text-overflow: ellipsis;
                     }
                     dt:first-child{
                         font-size: 0.15rem;

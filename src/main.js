@@ -49,12 +49,14 @@ const store = new Vuex.Store({
         },
         ADD_PRICE(state,count){
 
-		state.price += count;
 		state.count++;
+		var flag=true;
+
+		
 	    },
         DOWN_PRICE(state,count){
 
-			state.price -= count;
+//			state.price -= count;
 			if(state.count>1){
 				state.count--
 			}
@@ -63,9 +65,9 @@ const store = new Vuex.Store({
     },
     getters:{
         get(state){
-            console.log("456");
+//          console.log(state.count);
             return state.obj;
-            return state.count
+
             
         }
     },
