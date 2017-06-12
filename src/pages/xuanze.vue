@@ -28,9 +28,9 @@
                 <div class="shu yanse">
                     <p>购买数量</p>
                     <div class="gou">
-                        <span><img src="../../static/img/jian.png" alt=""></span>
-                        <span>1</span>
-                        <span><img src="../../static/img/add.png" alt=""></span>
+                        <span @click='redueOne()'><img src="../../static/img/jian.png" alt="" ></span>
+                        <span>{{this.$store.state.count}}</span>
+                        <span @click='addOne()'><img src="../../static/img/add.png" alt=""></span>
                     </div>
                 </div>
                 <div class="baoxian yanse">
@@ -68,12 +68,26 @@
                  this.$router.push({
                     path: '/detial'
                 })
+            },
+            addOne(){
+            	 this.$store.commit({
+            	 	type:'ADD_PRICE',
+            	 	
+            	 })
+            	
+            	
+            },
+            redueOne(){
+            	 this.$store.commit({
+            	 	type:'DOWN_PRICE',
+            	 })
+            	
             }
 
         },
         computed: {
             getObj() {
-                console.log(this.$store.getters.get)
+                console.log(this.$store.state.count)
                 return  this.$store.getters.get
             }
         }

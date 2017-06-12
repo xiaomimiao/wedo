@@ -1,6 +1,5 @@
 <template>
   <div  id="detial">
-
     <img :src="getObj.img_url" :style="{width:'100%'}" alt=""   alt="" v-if="getObj.img_url?true:false">
     <img :src="getObj.image_url" :style="{width:'100%'}" alt="" v-if="getObj.image_url?true:false">
 
