@@ -1,0 +1,366 @@
+{
+  "code": 0,
+  "result": "ok",
+  "description": "success",
+  "data": {
+    "sections": [
+      {
+        "action": {
+          "extra": "{\"action\":\"enter_product_list\",\"extra_category_id\":\"370\",\"extra_category_name\":\"\\u7ea2\\u7c73Pro \\u65b0\\u65d7\\u8230\",\"pluginPrevious\":\"30000001120002001_m7\"}",
+          "log_code": "30000001120002001",
+          "path": "ShopPlugin://com.xiaomi.shop.plugin.productlist.ui.ProductListFragment?pluginId=116",
+          "type": "plugin"
+        },
+        "body": {
+          "img_url": "//i8.mifile.cn/v1/a1/9c9389e3-6e49-123a-8cba-461a62995a39.jpg?w=1080&h=675&s=172.4",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/6ae6f06e-e7bc-4bb0-5406-bbda516cc428.webp?w=1080&h=675&s=172.4",
+          "product_brief": "双摄硬件级实时背景虚化，旗舰十核处理器，5.5英寸OLED屏，拉丝全金属旗舰工艺，全新升级新旗舰！",
+          "product_name": "红米Pro",
+          "product_price": "1099元 起"
+        },
+        "phone_type": "0",
+        "view_type": "list_recommend"
+      },
+      {
+        "action": {
+          "extra": "{\"action\":\"enter_product_list\",\"extra_category_id\":\"371\",\"extra_category_name\":\"\\u8f7b\\u8584\\u9ad8\\u6027\\u80fd\\u7b14\\u8bb0\\u672c\",\"pluginPrevious\":\"30000001120003001_m7\"}",
+          "log_code": "30000001120003001",
+          "path": "ShopPlugin://com.xiaomi.shop.plugin.productlist.ui.ProductListFragment?pluginId=116",
+          "type": "plugin"
+        },
+        "body": {
+          "img_url": "//i8.mifile.cn/v1/a1/2e022d57-cd64-343d-c062-1edb6bff1c5f.jpg?w=1080&h=675&s=89.8",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/f7ed8bb5-530b-cc58-cede-8d8bfb286beb.webp?w=1080&h=675&s=89.8",
+          "product_brief": "13.3英寸全金属机身，5.59mm超窄边框，无边式保护玻璃，小米笔记本Air 全金属超轻薄！",
+          "product_name": "小米笔记本Air",
+          "product_price": "4799元"
+        },
+        "phone_type": "0",
+        "view_type": "list_recommend"
+      },
+      {
+        "action": {
+          "extra": "{\"action\":\"enter_product_list\",\"extra_category_id\":\"286\",\"extra_category_name\":\"\\u5c0f\\u7c73\\u624b\\u673a5\",\"pluginPrevious\":\"30000001120004001_m7\"}",
+          "log_code": "30000001120004001",
+          "path": "ShopPlugin://com.xiaomi.shop.plugin.productlist.ui.ProductListFragment?pluginId=116",
+          "type": "plugin"
+        },
+        "body": {
+          "img_url": "//i8.mifile.cn/v1/a1/T1qzKgBvJv1RXrhCrK.jpg?w=1080&h=675&s=91.8",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/T1qFZgBCV_1RC2b46K.webp?w=1080&h=675&s=91.8",
+          "product_brief": "5.15英寸全高清阳光屏，色彩鲜艳，16颗 LED 灯珠提升 30% 亮度，显示通透，让屏幕黑暗下更柔和、烈日下更明亮。",
+          "product_name": "小米5 探索黑科技",
+          "product_price": "1799元"
+        },
+        "phone_type": "0",
+        "view_type": "list_recommend"
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"3381\",\"goodsId\":\"\",\"pluginPrevious\":\"30000001120005001_m7\"}",
+          "log_code": "30000001120005001",
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "type": "plugin"
+        },
+        "body": {
+          "img_url": "//i8.mifile.cn/v1/a1/T1V8JgB5Zv1RXrhCrK.jpg?w=1080&h=675&s=170.3",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/T1xNLgByb_1RC2b46K.webp?w=1080&h=675&s=170.3",
+          "product_brief": "5.9mm纤薄机身，超薄4K曲面屏，匠心设计与精致做工，集科技与艺术于一身，给你的客厅带来艺术之美。",
+          "product_name": "小米电视3S 65英寸 曲面",
+          "product_price": "8699元"
+        },
+        "phone_type": "0",
+        "view_type": "list_recommend"
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"3379\",\"goodsId\":\"\",\"pluginPrevious\":\"30000001120006001_m7\"}",
+          "log_code": "30000001120006001",
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "type": "plugin"
+        },
+        "body": {
+          "img_url": "//i8.mifile.cn/v1/a1/T168JgB7Kv1RXrhCrK.jpg?w=1080&h=675&s=102.1",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/T166WjBQAT1RC2b46K.webp?w=1080&h=675&s=102.1",
+          "product_brief": "内容超过44万小时，大片热剧、当红综艺、体育赛事、儿童节目应有尽有，全家人都能找到想看的节目。",
+          "product_name": "小米电视3S 43英寸",
+          "product_price": "0元"
+        },
+        "phone_type": "0",
+        "view_type": "list_recommend"
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"1160900014\",\"goodsId\":\"\",\"pluginPrevious\":\"30000001120007001_m7\"}",
+          "log_code": "30000001120007001",
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "type": "plugin"
+        },
+        "body": {
+          "img_url": "//i8.mifile.cn/v1/a1/T1EZK_BXAv1RXrhCrK.jpg?w=1080&h=675&s=180.4",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/dcd3fb6d-9df3-3d1d-ca6e-8ff4c336dbeb.webp?w=1080&h=675&s=180.4",
+          "product_brief": "全新空气增压系统，净化能力高达 310m³/h，让洁净的空气，吹遍房间的每个角落。",
+          "product_name": "小米空气净化器2",
+          "product_price": "699元"
+        },
+        "phone_type": "0",
+        "view_type": "list_recommend"
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"1152900009\",\"goodsId\":\"\",\"pluginPrevious\":\"30000001120008001_m7\"}",
+          "log_code": "30000001120008001",
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "type": "plugin"
+        },
+        "body": {
+          "img_url": "//i1.mifile.cn/v1/a1/T1xiJvBKVv1RXrhCrK.jpg?w=1080&h=675&s=114.1",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/c8fb1daa-33d5-a164-15e2-bbc518337229.webp?w=1080&h=675&s=114.1",
+          "product_brief": "精致小巧不占空间，高档大气简约美观，即开即饮新鲜健康。",
+          "product_name": "小米净水器 厨上式",
+          "product_price": "1299元"
+        },
+        "phone_type": "0",
+        "view_type": "list_recommend"
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"1154300001\",\"goodsId\":\"\",\"pluginPrevious\":\"30000001120009001_m7\"}",
+          "log_code": "30000001120009001",
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "type": "plugin"
+        },
+        "body": {
+          "img_url": "//i1.mifile.cn/v1/a1/T1CIVvBCbv1RXrhCrK.jpg?w=1080&h=675&s=76.1",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/5ef9bbda-65a2-0097-e1a4-4d3d4e323cd1.webp?w=1080&h=675&s=76.1",
+          "product_brief": "踏上它立刻感受到科技的神奇，22km 超长行驶里程，LED 自感应式彩虹灯，这一切美好，让你无比期待下一次出发！",
+          "product_name": "九号平衡车",
+          "product_price": "1949元"
+        },
+        "phone_type": "0",
+        "view_type": "list_recommend"
+      },
+      {
+        "action": {
+          "extra": "{\"action\":\"enter_product_list\",\"extra_category_id\":\"232\",\"extra_category_name\":\"\\u7ea2\\u7c73Note 3\",\"pluginPrevious\":\"30000001120010001_m7\"}",
+          "log_code": "30000001120010001",
+          "path": "ShopPlugin://com.xiaomi.shop.plugin.productlist.ui.ProductListFragment?pluginId=116",
+          "type": "plugin"
+        },
+        "body": {
+          "img_url": "//i8.mifile.cn/v1/a1/T1hXx_B4Cv1RXrhCrK.jpg?w=1080&h=675&s=131",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/d98884f3-e867-81e2-57cd-4bbd40c7e4c9.webp?w=1080&h=675&s=131",
+          "product_brief": "全新升级千元旗舰，金属机身，指纹识别，搭载MTK旗舰处理器，搭配MIUI7系统，更快、更强大！",
+          "product_name": "红米Note3 指纹识别",
+          "product_price": "799元"
+        },
+        "phone_type": "0",
+        "view_type": "list_recommend"
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"3386\",\"goodsId\":\"\",\"pluginPrevious\":\"30000001120012001_m7\"}",
+          "log_code": "30000001120012001",
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "type": "plugin"
+        },
+        "body": {
+          "img_url": "//i8.mifile.cn/v1/a1/T1CrJgBXCv1RXrhCrK.jpg?w=1080&h=675&s=45.9",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/T1S5ZjBXAv1RC2b46K.webp?w=1080&h=675&s=45.9",
+          "product_brief": "64位 4K网络机顶盒，2GB内存，8GB高速闪存，性能提升100%，快的不止有点狠。配合MIUI TV版系统，小盒子也可以有大作为！",
+          "product_name": "小米盒子3 增强版",
+          "product_price": "399元"
+        },
+        "phone_type": "0",
+        "view_type": "list_recommend"
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"3425\",\"goodsId\":\"\",\"pluginPrevious\":\"30000001120013001_m7\"}",
+          "log_code": "30000001120013001",
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "type": "plugin"
+        },
+        "body": {
+          "img_url": "//i8.mifile.cn/v1/a1/T1D3CjBmdT1RXrhCrK.jpg?w=1080&h=675&s=107.6",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/T1QPZgBjZv1RC2b46K.webp?w=1080&h=675&s=107.6",
+          "product_brief": "精致小巧的全白机身，掌心大小，无需准备空间，可以将它摆放在房间任何角落。",
+          "product_name": "小米网络收音机",
+          "product_price": "0元"
+        },
+        "phone_type": "0",
+        "view_type": "list_recommend"
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"2998\",\"goodsId\":\"\",\"pluginPrevious\":\"30000001120014001_m7\"}",
+          "log_code": "30000001120014001",
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "type": "plugin"
+        },
+        "body": {
+          "img_url": "//i8.mifile.cn/v1/a1/T1dRW_BXK_1RXrhCrK.jpg?w=1080&h=675&s=105.7",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/T1fPZgBT_v1RC2b46K.webp?w=1080&h=675&s=105.7",
+          "product_brief": "用手机随时查看、开关电源，节约用电，使用方便，让你的生活少一些烦恼。",
+          "product_name": "小米智能插座 基础版",
+          "product_price": "0元"
+        },
+        "phone_type": "0",
+        "view_type": "list_recommend"
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"2007\",\"goodsId\":\"\",\"pluginPrevious\":\"30000001120015001_m7\"}",
+          "log_code": "30000001120015001",
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "type": "plugin"
+        },
+        "body": {
+          "img_url": "//i8.mifile.cn/v1/a1/T1pUK_BgAv1RXrhCrK.jpg?w=1080&h=675&s=93.5",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/T1vOYgBvdv1RC2b46K.webp?w=1080&h=675&s=93.5",
+          "product_brief": "3个USB充电口，支持2A快充，3重安全保护，做你安全的“原装”充电器，给生活更多一点保护。",
+          "product_name": "小米插线板 两色可选",
+          "product_price": "49元"
+        },
+        "phone_type": "0",
+        "view_type": "list_recommend"
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"2667\",\"goodsId\":\"\",\"pluginPrevious\":\"30000001120016001_m7\"}",
+          "log_code": "30000001120016001",
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "type": "plugin"
+        },
+        "body": {
+          "img_url": "//i8.mifile.cn/v1/a1/T1jsY_BmZv1RXrhCrK.jpg?w=1080&h=675&s=63.6",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/T15_AgB5bv1RC2b46K.webp?w=1080&h=675&s=63.6",
+          "product_brief": "播放音乐、车载充电二合一，给你的爱车来一次“小升级”！",
+          "product_name": "睿米车载蓝牙播放器",
+          "product_price": "0元"
+        },
+        "phone_type": "0",
+        "view_type": "list_recommend"
+      },
+      {
+        "action": {
+          "extra": "{\"action\":\"enter_product_list\",\"extra_category_id\":\"311\",\"extra_category_name\":\"\\u5c0f\\u7c73\\u5708\\u94c1\\u8033\\u673a\",\"pluginPrevious\":\"30000001120017001_m7\"}",
+          "log_code": "30000001120017001",
+          "path": "ShopPlugin://com.xiaomi.shop.plugin.productlist.ui.ProductListFragment?pluginId=116",
+          "type": "plugin"
+        },
+        "body": {
+          "img_url": "//i8.mifile.cn/v1/a1/T1hZE_B4Vv1RXrhCrK.jpg?w=1080&h=675&s=154.7",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/83fb6dd8-442a-2feb-486a-c92b1ba2845c.webp?w=1080&h=675&s=154.7",
+          "product_brief": "四届格莱美奖录音大师，主观声学调音，让每个人都感受到音乐的美好。",
+          "product_name": "小米圈铁耳机",
+          "product_price": "89元"
+        },
+        "phone_type": "0",
+        "view_type": "list_recommend"
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"1154400042\",\"goodsId\":\"\",\"pluginPrevious\":\"30000001120018001_m7\"}",
+          "log_code": "30000001120018001",
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "type": "plugin"
+        },
+        "body": {
+          "img_url": "//i8.mifile.cn/v1/a1/T1NyE_BmZv1RXrhCrK.jpg?w=1080&h=675&s=70.5",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/T1svKjBQKT1RC2b46K.webp?w=1080&h=675&s=70.5",
+          "product_brief": "不仅采用环保材质，还在表面设计渐变凸点，防滑且耐刮花，只为给你更好的品质！",
+          "product_name": "小米移动电源20000mAh",
+          "product_price": "0元"
+        },
+        "phone_type": "0",
+        "view_type": "list_recommend"
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"2665\",\"goodsId\":\"\",\"pluginPrevious\":\"30000001120019001_m7\"}",
+          "log_code": "30000001120019001",
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "type": "plugin"
+        },
+        "body": {
+          "img_url": "//i1.mifile.cn/v1/a1/T15hAvBKYv1RXrhCrK.jpg?w=1080&h=675&s=96.8",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/00df79d4-52a0-2a47-fdd4-6a4fc6bf25f9.webp?w=1080&h=675&s=96.8",
+          "product_brief": "仅铅笔盒大小，能听音乐还能免提通话，支持 SD 卡，万首歌曲随身携带。",
+          "product_name": "小米蓝牙音箱",
+          "product_price": "180元"
+        },
+        "phone_type": "0",
+        "view_type": "list_recommend"
+      },
+      {
+        "action": {
+          "extra": "{\"action\":\"enter_product_list\",\"extra_category_id\":\"238\",\"extra_category_name\":\"\\u70ed\\u5356\\u80cc\\u5305\",\"pluginPrevious\":\"30000001120020001_m7\"}",
+          "log_code": "30000001120020001",
+          "path": "ShopPlugin://com.xiaomi.shop.plugin.productlist.ui.ProductListFragment?pluginId=116",
+          "type": "plugin"
+        },
+        "body": {
+          "img_url": "//i8.mifile.cn/v1/a1/T17CdgBChv1RXrhCrK.jpg?w=1080&h=675&s=95.9",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/T1d7ZjBbLT1RC2b46K.webp?w=1080&h=675&s=95.9",
+          "product_brief": "经典百搭款，潮人出街必备，25升大容量空间，装下你的小世界。",
+          "product_name": "多功能双肩包",
+          "product_price": "59元 起"
+        },
+        "phone_type": "0",
+        "view_type": "list_recommend"
+      },
+      {
+        "action": {
+          "extra": "{\"action\":\"enter_product_list\",\"extra_category_id\":\"251\",\"extra_category_name\":\"90\\u5206\\u65c5\\u884c\\u7bb1\",\"pluginPrevious\":\"30000001120021001_m7\"}",
+          "log_code": "30000001120021001",
+          "path": "ShopPlugin://com.xiaomi.shop.plugin.productlist.ui.ProductListFragment?pluginId=116",
+          "type": "plugin"
+        },
+        "body": {
+          "img_url": "//i8.mifile.cn/v1/a1/T1uwd_BXYv1RXrhCrK.jpg?w=1080&h=675&s=73.7",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/T1raxjBgbv1RC2b46K.webp?w=1080&h=675&s=73.7",
+          "product_brief": "高弹性静音轮胎，触感柔软，避免了晃动时发出的噪音，推拉起来灵活耐用。",
+          "product_name": "90分旅行箱",
+          "product_price": "269元 起"
+        },
+        "phone_type": "0",
+        "view_type": "list_recommend"
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"1151100013\",\"goodsId\":\"2151100003\",\"pluginPrevious\":\"30000001120022001_m7\"}",
+          "log_code": "30000001120022001",
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "type": "plugin"
+        },
+        "body": {
+          "img_url": "//i1.mifile.cn/v1/a1/T1WqEvBKJv1RXrhCrK.jpg?w=1080&h=675&s=83.8",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/9d892922-6d97-2207-6fae-8cf3788f9415.webp?w=1080&h=675&s=83.8",
+          "product_brief": "感知你身体的细微变化，完整记录你的蜕变过程，让你变得更好，更优秀。",
+          "product_name": "小米体重秤",
+          "product_price": "99元"
+        },
+        "phone_type": "0",
+        "view_type": "list_recommend"
+      },
+      {
+        "action": {
+          "extra": "{\"commodityId\":\"1152300005\",\"goodsId\":\"\",\"pluginPrevious\":\"30000001120023001_m7\"}",
+          "log_code": "30000001120023001",
+          "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+          "type": "plugin"
+        },
+        "body": {
+          "img_url": "//i1.mifile.cn/v1/a1/T1NSC_B5xv1RXrhCrK.jpg?w=1080&h=675&s=89.2",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/T1MXVjBXJv1RC2b46K.webp?w=1080&h=675&s=89.2",
+          "product_brief": "当你离开家，自动开启动作检测功能，有人闯入，自动录像并及时通知你，给家带来24小时的贴心守护。\n",
+          "product_name": "小蚁智能摄像机 夜视版",
+          "product_price": "0元"
+        },
+        "phone_type": "0",
+        "view_type": "list_recommend"
+      }
+    ]
+  }
+}

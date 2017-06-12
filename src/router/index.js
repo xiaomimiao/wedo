@@ -28,6 +28,7 @@ import xuanze from '../pages/xuanze'
 import list from '../pages/list'
 import carwd from '../pages/carwd'
 import service from '../components/service'
+import  shopping from '../pages/shopping'
 
 // 定义路由规则
 const routes = [
@@ -47,7 +48,8 @@ const routes = [
     {path: '/detial1', component: detial1},
     {path: '/list', component: list},
     {path: '/carwd', component: carwd},
-    {path:'/service',component:service}
+    {path:'/service',component:service},
+    {path:'/shopping',component:shopping}
 
 ];
 

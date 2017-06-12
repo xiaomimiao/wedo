@@ -1,6 +1,6 @@
 <template>
      <div  class="public"   >
-         <div  class="select"   @click="">
+         <div  class="select"   @click="xuan()">
              <p>已选</p>
              <p>{{ getObj.product_name }}</p>
          </div>
@@ -30,7 +30,9 @@
             }
        },
        methods:{
-
+            xuan(){
+              this.$router.push('/xuanze')
+            }
 
        },
        created(){
